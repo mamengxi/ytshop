@@ -1,0 +1,42 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-lg-12">
+        <div class="form-group">
+            <button class="btn btn-sm btn-primary m-t-n-xs" onclick="layer_show('添加广告','/admin/Operate/ad_add.html?location_id={$location_id}',800,520)"><strong>添加广告</strong></button>
+            <!--<button class="btn btn-sm btn-primary m-t-n-xs do-del-all" data-db="ad" data-status="1"><strong>启用</strong></button>-->
+            <!--<button class="btn btn-sm btn-primary m-t-n-xs do-del-all" data-db="ad" data-status="0"><strong>禁用</strong></button>-->
+        </div>
+        <table class="table table-bordered table-hover">
+            <thead>
+            <tr>
+                <th class="text-center" width="50"><input class="check-all" type="checkbox"/></th>
+                <th>标题</th>
+                <th>url</th>
+                <th>开始时间</th>
+                <th>结束时间</th>
+                <th width="60">状态</th>
+                <th width="121">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach name="list" item="vo"}
+            <tr class="gradeX">
+                <td class="text-center"><input class="ids" type="checkbox" name="id[]" value="{$vo.id}"></td>
+                <td>{$vo.ad_name}</td>
+                <td>{$vo.url}</td>
+                <td>{$vo.start_time|date="Y-m-d H:i:s",###}</td>
+                <td>{$vo.end_time|date="Y-m-d H:i:s",###}{if condition="$vo.end_time lt time() "}<span class="label label-tips label-warning">过期</span>{/if}</td>
+                <td class="layui-form"><input type="checkbox" {if condition="$vo.status eq 1"}checked=""{/if} data-db="ad" data-id="{$vo.id}" name="open" lay-skin="switch" lay-filter="switchStatus" lay-text="ON|OFF"></td>
+                <td>
+                    <button class="btn btn-xs btn-default do-del" data-db="ad" data-id="{$vo.id}" data-status="-1"><i class="fa fa-trash-o"></i> 删除</button>
+                    <button class="btn btn-xs btn-primary" onclick="layer_show('编辑广告位','/admin/Operate/ad_edit.html?id={$vo.id}',800,520)"><i class="fa fa-edit"></i> 编辑</button>
+                </td>
+            </tr>
+            {/foreach}
+            </tbody>
+        </table>
+        {$list->render()}
+    </div>
+</div>
+{/block}

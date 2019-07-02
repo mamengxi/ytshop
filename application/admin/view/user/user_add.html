@@ -1,0 +1,205 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">昵称<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="nickname" lay-verify="required" autocomplete="off" placeholder="请输入昵称" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">密码<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="password" name="password" lay-verify="required" autocomplete="off" placeholder="请输入密码" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">真实姓名</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="real_name" autocomplete="off" placeholder="请输入昵称" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">用户头像<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <img class="j-addimg" data-width="60" data-height="60" src="__IMG__/logo.png" width="80px" alt="">
+                                <input type="hidden" name="head_img" class="head_img" value="">
+                                <!--  <input type="file" name="upfile" class="form-control j-file hidden" value="" accept="image/*"></div> -->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">性别<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="radio" name="sex" value="1" title="男" checked="">
+                                <input type="radio" name="sex" value="2" title="女">
+                                <input type="radio" name="sex" value="3" title="保密">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">联系电话<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="phone" autocomplete="off" lay-verify="required" placeholder="请输入联系电话" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">身份证号<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="id_card" autocomplete="off" placeholder="请输入身份证号" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">常用邮箱<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="email" autocomplete="off" placeholder="请输入常用邮箱" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">地址</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="address" autocomplete="off" placeholder="请输入地址" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">身份证正面</label>
+                            <div class="col-sm-5">
+                                <button type="button" class="btn btn-primary btn-file j-upload-one"  lay-data="{data:{name: 'id_img_front', folder: 'shop'}}"></i><i class="fa fa-folder-open-o"></i>&nbsp;上传正面...</button>
+                                <div class="file-list clearfix"><ul></ul></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">身份证反面</label>
+                            <div class="col-sm-5">
+                                <button type="button" class="btn btn-primary btn-file j-upload-one"  lay-data="{data:{name: 'id_img_back', folder: 'shop'}}"></i><i class="fa fa-folder-open-o"></i>&nbsp;上传反面...</button>
+                                <div class="file-list clearfix"><ul></ul></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">是否启用</label>
+                            <div class="col-sm-10">
+                                <input type="checkbox" checked="" value="1"  lay-filter="status" name="status" lay-skin="switch" lay-text="ON|OFF" title="开关">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button class="btn btn-mint" lay-submit="" data-url="{:url('User/user_add')}" lay-filter="submit">提交</button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="cropper ibox-content" style="display: none">
+    <form class="avatar-form" action="" enctype="multipart/form-data" method="post">
+        <link href="__LIB__/cropper/cropper.css" rel="stylesheet">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="img-container">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="docs-preview clearfix">
+                    <div class="img-preview preview-lg" style="width: 120px;height: 120px"></div>
+                    <div class="img-preview preview-md" style="width: 60px;height: 60px"></div>
+                    <!-- <div class="img-preview preview-sm"></div>
+                    <div class="img-preview preview-xs"></div> -->
+                </div>
+                <div class="docs-data" style="display: none">
+                    <div class="input-group">
+                        <label class="input-group-addon" for="dataX">X</label>
+                        <input class="form-control" name="x" id="dataX" type="text" placeholder="x">
+                        <span class="input-group-addon">px</span>
+                    </div>
+                    <div class="input-group">
+                        <label class="input-group-addon" for="dataY">Y</label>
+                        <input class="form-control" name="y" id="dataY" type="text" placeholder="y">
+                        <span class="input-group-addon">px</span>
+                    </div>
+                    <div class="input-group">
+                        <label class="input-group-addon" for="dataWidth">Width</label>
+                        <input class="form-control" name="w" id="dataWidth" type="text" placeholder="width">
+                        <span class="input-group-addon">px</span>
+                    </div>
+                    <div class="input-group">
+                        <label class="input-group-addon" for="dataHeight">Height</label>
+                        <input class="form-control" name="h" id="dataHeight" type="text" placeholder="height">
+                        <span class="input-group-addon">px</span>
+                    </div>
+
+                </div>
+                <div class="btn-group">
+                    <label class="btn btn-primary btn-upload" for="inputImage" title="Upload image file">
+                        <input class="sr-only" id="inputImage" name="upfile" type="file" accept="image/*">
+                            <span class="docs-tooltip" data-toggle="tooltip" title="Import image with Blob URLs">
+                            <i class="fa fa-folder-open-o"></i>&nbsp;选择
+                            </span>
+                    </label>
+                    <button type="button" class="btn btn-primary j-crop"><i class="fa fa-save" aria-hidden="true"></i>&nbsp;提交</button>
+                </div>
+            </div>
+        </div>
+        <script src="__LIB__/cropper/cropper.js"></script>
+        <script src="__LIB__/cropper/main.js"></script>
+    </form>
+</div>
+<script>
+    $('.j-addimg').on('click',function() {
+        //捕获页
+        layer.open({
+            type: 1,
+            shade: false,
+            zIndex: 1000,
+            skin: 'layui-layer-rim', //加上边框
+            area: ['600px', '395px'],//宽高
+            title: '裁剪图片',//不显示标题
+            content: $('.cropper'),//捕获的元素
+        });
+    })
+
+    // 截图
+    $('.j-crop').on('click',function() {
+        var formData = new FormData($(".avatar-form")[0]);
+        $.ajax({
+            url: "/admin/Index/crop.html",
+            type: 'POST',
+            data: formData,
+            async: false,
+            cache: false,
+            contentType: false,
+            processData: false,
+            beforeSend: function() {
+                index = layer.load()
+            },
+            success: function(data) {
+                if (data.status) {
+                    $('.j-addimg').attr('src', data.info);
+                    $('.head_img').val(data.info);
+                    layer.closeAll('page');
+                } else {
+                    layer.msg(data.info);
+                }
+            },
+            complete: function() {
+                layer.close(index);
+            },
+            error: function(data) {
+                alert('错误！');
+            }
+        });
+    });
+</script>
+
+{/block}

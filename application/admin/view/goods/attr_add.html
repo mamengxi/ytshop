@@ -1,0 +1,52 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-lg-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal col-sm-12" action="">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">规格名称 <i class="red">*</i></label>
+                        <div class="col-sm-9">
+                            <input type="text" name="name" lay-verify="required" autocomplete="off" minlength="1" maxlength="8" placeholder="请输入属性（如颜色（尺寸））"  class="form-control" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9 col-sm-offset-3">
+                            <button class="btn btn-mint" lay-submit="" lay-filter="demo1">立即提交</button>
+                            <button type="reset" class="btn btn-warning">重置</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    layui.use(['form','element','upload'], function(){
+        var form = layui.form
+                ,layer = layui.layer
+                ,element = layui.element;
+
+        //监听提交
+        form.on('submit(demo1)', function(data){
+            ajax("/admin/Goods/attr_add",data.field,function(data){
+                if(data.status){
+                    layer.msg(data.info,{icon: 1,time: 1000 }, function(){
+                        parent.location.reload();
+                    });
+                }else{
+                    layer.msg(data.info,{icon:2});
+                }
+            })
+            return false;
+        });
+
+
+    });
+
+</script>
+{/block}
+
+
+

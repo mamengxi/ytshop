@@ -1,0 +1,69 @@
+{extend name="public:base" /}
+{block name="main"}
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-12">
+            <fieldset class="layui-elem-field layui-field-title">
+                <legend>商品属性</legend>
+            </fieldset>
+            <div class="row">
+                <div class="form-group col-sm-12">
+                    <a class="btn btn-sm btn-primary" onclick="layer_show('添加属性','/admin/Goods/attr_value_add',1000)">添加属性</a>
+                </div>
+                <!--<div class="search-box form-group col-sm-12">-->
+                    <!--<form class="form-inline layui-form" action="">-->
+                        <!--<div class="input-group">-->
+                            <!--<div class="input-group-btn">-->
+                                <!--<button class="btn btn-default j-text" type="button"  style="width: 100px">商品规格</button>-->
+                            <!--</div>-->
+                            <!--<input type="text" name="title" placeholder="请输入属性名" class="form-control j-data" value="{$_GET['title']|default=''}">-->
+                        <!--</div>-->
+                        <!--<div class="input-group">-->
+                            <!--<div class="input-group-btn">-->
+                                <!--<button class="btn btn-default j-text" type="button"  style="width: 100px">属性值</button>-->
+                            <!--</div>-->
+                            <!--<input type="text" name="value" placeholder="请输入属性名" class="form-control j-data" value="{$_GET['value']|default=''}">-->
+                        <!--</div>-->
+                        <!--<button class="btn btn-primary" type="submit">搜索</button>-->
+                        <!--<a class="btn btn-primary" href="{:url('Goods/attr_value')}" >清空</a>-->
+                    <!--</form>-->
+                <!--</div>-->
+            </div>
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>分类编号</th>
+                    <th>规格名</th>
+                    <th>属性值</th>
+                    <th width="121">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {foreach name="list" item="vo"}
+                <tr class="gradeX">
+                    <td>{$vo.gaid}</td>
+                    <td>{$vo.ganame}</td>
+                    <td>{$vo.gname}</td>
+                    <td>
+                        <button class="btn btn-xs btn-default do-del" data-db="goods_attr" data-index="good_attr_id" data-id="{$vo.gaid}" data-status="-1" data-field="status"><i class="fa fa-trash-o"></i> 删除</button>
+                        <a class="btn btn-xs btn-primary" onclick="layer_show('编辑属性','/admin/Goods/attr_value_edit?id={$vo.gaid}',800,300)"><i class="fa fa-edit"></i> 编辑</a>
+                    </td>
+                </tr>
+                {/foreach}
+                </tbody>
+            </table>
+            {$list|raw}
+        </div>
+    </div>
+</div>
+<script>
+    layui.use('form', function(){
+        var form = layui.form;
+        $('.del').click(function (e) {
+            var id = e.currentTarget.dataset.id;
+            if(!id)  return;
+            console.log(e.currentTarget.dataset);
+        });
+    });
+</script>
+{/block}

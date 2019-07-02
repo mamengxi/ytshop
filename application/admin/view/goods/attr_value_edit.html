@@ -1,0 +1,64 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-9">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">规格名</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="" disabled value="{$info.ganame}" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">属性值</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="name"   value="{$info.gname}" autocomplete="off" class="form-control" lay-verify="required">
+                            </div>
+                        </div>
+                        <input type="hidden" name="id" value="{$info.gaid}">
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-sm-9 col-sm-offset-3">
+                                <button class="btn btn-mint" lay-submit="" lay-filter="rule">提交</button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.use(['form','upload'], function(){
+        var form = layui.form
+                ,layer = layui.layer;
+
+        //监听提交
+        form.on('submit(rule)', function(data){
+            ajax("/admin/Goods/attr_value_edit",data.field,function(data){
+                if(data.status){
+                    layer.msg(data.info, {
+                        icon: 1,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        layer_close();
+                        parent.location.reload();
+                    });
+                }else{
+                    layer.msg(data.info, {
+                        icon: 2,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    });
+                }
+            })
+            return false;
+        });
+    });
+</script>
+{/block}

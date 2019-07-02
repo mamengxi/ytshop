@@ -1,0 +1,133 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="javascript:;">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">订单编号</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="order_num" value="{$list.order_sn}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">订单总额</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="total_price" value="{$list.total_price|unFormatMoney}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">申请用户</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="consignee" value="{$list.consignee}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">用户联系方式</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="mobile" value="{$list.mobile}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">退车说明</label>
+                            <div class="col-sm-10">
+                                <textarea type="text" name="illustrate" autocomplete="off" class="form-control" readonly="">{$list.illustrate}</textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">退货类型</label>
+                            <div class="col-sm-10">
+                                {if condition="$list.service_type eq 1"}
+                                <input type="text" name="service_type" value="质量问题" class="form-control" readonly="">
+                                {elseif condition="$list.service_type eq 2"/}
+                                <input type="text" name="service_type" value="租赁还车" class="form-control" readonly="">
+                                {else/}
+                                <input type="text" name="service_type" value="其他" class="form-control" readonly="">
+                                {/if}
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">租赁开始时间</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="title" value="{$list.logistics_time|date='Y-m-d H:i:s'}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">退款处理</label>
+                            <div class="col-sm-10">
+                                {switch name="$list.type_id"}
+                                {case value="7"}<input type="text" name="type" value="此商品属于B类商品，不产生租赁费用" class="form-control" readonly="">
+                                {/case}
+                                {default /}
+                                <input type="text" name="type" value="已产生费用{$list.logistics_time|count_expenses=$lease.start_time,$lease.end_time,$list.expenses,$lease.rate,$list.total_price,$list.goods_num}元，需退金额{$list.logistics_time|Retreat_expenses=$lease.start_time,$lease.end_time,$list.expenses,$lease.rate,$list.total_price,$list.goods_num}元" class="form-control" readonly="">
+                                {/switch}
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">图片凭证</label>
+                            <div class="col-sm-10">
+                                <div class="file-list clearfix"><ul>
+                                    {foreach name="list.images" item="i"}
+                                    <li><img layer-src="{$i|thumb_to_big}" src="{$i|default="__IMG__/no_image.png"}"></li>
+                                    {/foreach}
+                                </ul>
+                                    <input name="image_url" class="file-list-input" type="hidden" value="{$list.image}">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="id" value="{$list.id}">
+                    <div class="row">
+                        <div class="form-group">
+                            {switch name="$list.type_id"}
+                            {case value="7"}
+                                {if condition="$list.isagree_money eq 3"/}
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button class="btn btn-mint agree" data-id="{$list.id}" data-status="4" data-price="{$list.total_price|unFormatMoney}"  data-filter="isagree_money">同意退款&nbsp <span style="color: #FFCC00;">{$list.total_price|unFormatMoney}</span>元</button>
+                                </div>
+                                {elseif condition="$list.isagree_money eq 4"/}
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button type="btn" class="btn btn-warning">已处理</button>
+                                </div>
+                                {/if}
+                            {/case}
+                            {default /}
+                                {if condition="$list.isagree_money eq 3"/}
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button class="btn btn-mint agree" data-id="{$list.id}" data-status="4" data-price="{$list.logistics_time|Retreat_expenses=$lease.start_time,$lease.end_time,$list.expenses,$lease.rate,$list.total_price,$list.goods_num}"  data-filter="isagree_money">同意退款&nbsp <span style="color: #FFCC00;">{$list.logistics_time|Retreat_expenses=$lease.start_time,$lease.end_time,$list.expenses,$lease.rate,$list.total_price,$list.goods_num}</span>元</button>
+                                </div>
+                                {elseif condition="$list.isagree_money eq 4"/}
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button type="btn" class="btn btn-warning">已处理</button>
+                                </div>
+                                {/if}
+                            {/switch}
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('.agree').click(function(e){
+        var status = e.currentTarget.dataset.status;
+        var id = e.currentTarget.dataset.id;
+        var filter = e.currentTarget.dataset.filter;
+        var refund = e.currentTarget.dataset.price;
+        $.post("{:url('Lease/Lease_detail',['id'=>$list.order_id])}",{sid:id,status:status,filter:filter,refund:refund},function(data){
+            if(data.status){
+                layer.msg(data.info, {icon: 1,time: 1000 }, function(){
+                    parent.location.reload();
+                });
+            }else{
+                layer.msg(data.info,{icon:2});
+            }
+        })
+    })
+</script>
+{/block}

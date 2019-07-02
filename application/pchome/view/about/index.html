@@ -1,0 +1,39 @@
+{extend name="public:base" /}
+{block name="main"}
+		<div class="banner swiper-container" id="banner">
+		    <div class="swiper-wrapper">
+				{empty name="ad"}
+				<div class="swiper-slide"><a href=""><img src="__IMG__/banner-1.jpg" /></a></div>
+				<div class="swiper-slide"><a href=""><img src="__IMG__/banner-2.jpg" /></a></div>
+				<div class="swiper-slide"><a href=""><img src="__IMG__/banner-3.jpg" /></a></div>
+				<div class="swiper-slide"><a href=""><img src="__IMG__/banner-4.jpg" /></a></div>
+				{else /}
+				{volist name="ad" id="vo"}
+				<div class="swiper-slide"><a href="{$vo.url}"><img src="{$vo.img_src|default='__IMG__/banner-1.jpg'}" alt="{$vo.ad_name}"/></a></div>
+				{/volist}
+				{/empty}
+		    </div>
+		    <div class="swiper-pagination"></div>
+		    <div class="swiper-button-prev"></div>
+    		<div class="swiper-button-next"></div>
+		</div>
+		<div class="about_body">
+			<div class="history">
+				<h2>品牌故事</h2>
+				<p style="text-align: center;">
+					爱巢科技有限公司是从2009年开始成立的一家私人企业。目睹曾经的机皇诺基亚和安卓鼻祖HTC等公司的崛起和变迁。有着强大的手机正规货源渠道、灵活的销售技巧和高信用的售后服务。<br>
+					<br>
+					<br>
+					公司创始人MSC，未来打破历史的马氏企业家！<br>
+					<br>
+					<br>
+					公司检测设备先进、技术力量雄厚，拥有先进的自动检测流水线，形成从收集——检测——修理——检测——销售一条龙配套的企业。<br>
+					<br>
+					<br>
+				</p>
+			</div>
+			<div class="about_img">
+				<img src="__IMG__/about.jpg"/>
+			</div>
+		</div>
+{/block}

@@ -1,0 +1,309 @@
+{extend name="public:base" /}
+{block name="main"}
+<div class="row">
+    <div class="col-sm-12">
+        <fieldset class="layui-elem-field layui-field-title">
+            <legend>系统设置</legend>
+        </fieldset>
+        <div class="layui-tab layui-tab-brief">
+            <ul class="layui-tab-title">
+                <li class="layui-this">基本设置</li>
+                <li class="pay">支付方式</li>
+                <li class="pay">物流方式</li>
+                <li class="pay">短信平台设置</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <div class="row panel-body">
+                        <form class="layui-form form-horizontal col-sm-6" action="">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">公司名称</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="company" lay-verify="required" autocomplete="off" placeholder="请输入内容" class="form-control" value="{$config.company|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">网站名称</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="site_name" lay-verify="required" autocomplete="off" placeholder="请输入标题" class="form-control" value="{$config.site_name|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">网站标题</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="site_title" lay-verify="required" autocomplete="off" placeholder="请输入标题" class="form-control" value="{$config.site_title|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">微信公众号</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="qr_num" lay-verify="required" autocomplete="off" placeholder="请输入公众号" class="form-control" value="{$config.qr_num|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">公众号二维码</label>
+                                <div class="col-sm-9">
+                                    <button type="button" class="btn btn-primary btn-file j-upload-one"  lay-data="{data:{name: 'qrcode', folder: 'shop'}}"></i><i class="fa fa-folder-open-o"></i>&nbsp;上传二维码图片...</button>
+                                    <div class="file-list clearfix">
+                                        <ul>
+                                            <li><img src="{$config.qrcode}"/></li>
+                                        </ul>
+                                        <input name="qrcode" class="file-list-input" type="hidden" value="{$config.qrcode}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">热门搜索</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="site_search" lay-verify="required" placeholder="请输入" autocomplete="off" class="form-control" value="{$config.site_search|default=''}">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">关键词</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="site_keywords" lay-verify="required" placeholder="请输入" autocomplete="off" class="form-control" value="{$config.site_keywords|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">客服QQ</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="QQ" lay-verify="required" placeholder="请输入" autocomplete="off" class="form-control" value="{$config.QQ|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">售后服务</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="mobile" lay-verify="required" placeholder="请输入" autocomplete="off" class="form-control" value="{$config.mobile|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">公司地址</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="address" lay-verify="required" autocomplete="off" placeholder="请输入地址" class="form-control" value="{$config.address|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">邮箱</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="email" lay-verify="required" autocomplete="off" placeholder="请输入邮箱" class="form-control" value="{$config.email|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group layui-form-text">
+                                <label class="col-sm-3 control-label">项目介绍</label>
+                                <div class="col-sm-9">
+                                    <textarea type="text" name="project_introduce" placeholder="请输入内容" autocomplete="off" class="form-control">{$config.project_introduce|default=''}</textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group layui-form-text">
+                                <label class="col-sm-3 control-label">网站描述</label>
+                                <div class="col-sm-9">
+                                    <textarea type="text" name="site_description" placeholder="请输入内容" autocomplete="off" class="form-control">{$config.site_description|default=''}</textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group layui-form-text">
+                                <label class="col-sm-3 control-label">关于我们</label>
+                                <div class="col-sm-9">
+                                    <textarea type="text" name="about_us" placeholder="请输入内容" autocomplete="off" class="form-control">{$config.about_us|default=''}</textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9 col-sm-offset-3">
+                                    <button class="btn btn-mint" lay-submit="" lay-filter="demo1">立即提交</button>
+                                    <button type="reset" class="btn btn-warning">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="layui-tab-item">
+                    <div class="row">
+                        <form class="layui-form form-horizontal col-sm-6" action="" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">支付方式</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="pay_way" lay-verify="required" autocomplete="off" placeholder="请输入支付方式" class="form-control" value="{$config.pay_way|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">支付方式介绍</label>
+                                <div class="col-sm-9">
+                                    <textarea name="introduce" cols="30" lay-verify="required" autocomplete="off" placeholder="请输入支付方式介绍" class="form-control" rows="10">{$config.introduce|default=''}</textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">AppId</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="appid" lay-verify="required" placeholder="请输入AppId" autocomplete="off" class="form-control" value="{$config.appid|default=''}">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">AppSecret</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="appsecret" lay-verify="required" placeholder="请输入AppSecret" autocomplete="off" class="form-control" value="{$config.appsecret|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">商户ID</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="bus_id" lay-verify="required" placeholder="请输入商户ID" autocomplete="off" class="form-control" value="{$config.bus_id|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">商户密钥</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="secret" lay-verify="required" placeholder="请输入商户密钥" autocomplete="off" class="form-control" value="{$config.secret|default=''}">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9 col-sm-offset-3">
+                                    <button class="btn btn-mint" lay-submit="" lay-filter="demo4">立即提交</button>
+                                    <button type="reset" class="btn btn-warning">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="layui-tab-item">
+                    <div class="row">
+                        <form class="layui-form form-horizontal col-sm-6" action="" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">商户ID</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="ebusinessid" lay-verify="required" placeholder="请输入EBusinessID" autocomplete="off" class="form-control" value="{$config.ebusinessid|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">AppKey</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="appkey" lay-verify="required" placeholder="请输入AppKey" autocomplete="off" class="form-control" value="{$config.appkey|default=''}">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9 col-sm-offset-3">
+                                    <button class="btn btn-mint" lay-submit="" lay-filter="demo4">立即提交</button>
+                                    <button type="reset" class="btn btn-warning">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="layui-tab-item">
+                    <div class="row">
+                        <form class="layui-form form-horizontal col-sm-6" action="" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">短信ID</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="messageid" lay-verify="required" placeholder="请输入短信ID" autocomplete="off" class="form-control" value="{$config.messageid|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">AppKey</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="messagekey" lay-verify="required" placeholder="请输入messagekey" autocomplete="off" class="form-control" value="{$config.messagekey|default=''}">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9 col-sm-offset-3">
+                                    <button class="btn btn-mint" lay-submit="" lay-filter="demo4">立即提交</button>
+                                    <button type="reset" class="btn btn-warning">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.use(['form','element','upload'], function(){
+        var form = layui.form
+                ,layer = layui.layer
+                ,element = layui.element;
+//        layui.upload({
+//            url: '/admin/Common/upload' //上传接口
+//            ,success: function(res){ //上传成功后的回调
+//                if(res.status){
+//                    $('.site_logo').val(res.url)
+//                    $('.site_logo_img').attr('src',res.url);
+//                    // $('.file-url').empty();
+//                    // $('.file-url').append("<input type='text' name='site_logo' lay-verify='required' autocomplete='off' value='"+res.url+"' class='form-control'>")
+//                }else{
+//                    layer.msg(res.info)
+//                }
+//            }
+//        });
+
+        //监听提交
+        form.on('submit(demo1)', function(data){
+            data.field.site_close=data.field.site_close?1:0;
+            console.log(data.field.site_close);
+            ajax("/admin/System/index",data.field,function(data){
+                if(data.status){
+                    layer.msg(data.info);
+                }else{
+                    layer.msg(data.info);
+                }
+            })
+            return false;
+        });
+
+        //监听提交
+        form.on('submit(demo2)', function(data){
+            ajax("/admin/System/index",data.field,function(data){
+                if(data.status){
+                    layer.msg(data.info);
+                }else{
+                    layer.msg(data.info);
+                }
+            })
+            return false;
+        });
+        form.on('submit(demo3)', function(data){
+            ajax("{:url('System/email_test')}",data.field,function(data){
+                if(data.status){
+                    layer.msg(data.info);
+                }else{
+                    layer.msg(data.info);
+                }
+            })
+            return false;
+        });
+        form.on('submit(demo4)', function(data){
+            ajax("{:url('admin/System/index')}",data.field,function(data){
+                if(data.status){
+                    layer.msg(data.info);
+                }else{
+                    layer.msg(data.info);
+                }
+            })
+            return false;
+        });
+
+        $('.a').click(function(){
+            layer.open({
+                type: 1 //Page层类型
+                ,area: ['500px', '300px']
+                ,title: '你好，layer。'
+                ,shade: 0.6 //遮罩透明度
+                ,maxmin: true //允许全屏最小化
+                ,anim: 0 //0-6的动画形式，-1不开启
+                ,content: '<div style="padding:50px;">这是一个非常普通的页面层，传入了自定义的html</div>'
+            });
+        })
+
+    });
+
+</script>
+{/block}

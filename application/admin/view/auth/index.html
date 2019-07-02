@@ -1,0 +1,107 @@
+{extend name="public:base" /}
+{block name="main"}
+<div id="report-wrapper" class="content clearfix">
+    <div class="main-content">
+        <fieldset class="layui-elem-field layui-field-title">
+            <legend>管理员列表</legend>
+        </fieldset>
+        <div>
+            <button class="btn btn-mint" onclick="layer_show('添加管理员','/admin/Auth/admin_add.html',800,600)"><i class="fa fa-plus"></i> 添加管理员</button>
+        </div>
+        <div class="table-responsive layui-table">
+            <table class="table table-bordered" lay-even>
+                <thead>
+                <tr>
+                    <th class="text-center" width="13"><input class="check-all" type="checkbox"/></th>
+                    <th>用户名</th>
+                    <th>角色</th>
+                    <th>授权</th>
+                    <th>邮箱</th>
+                    <th>最后登录ip</th>
+                    <th>最后登录时间</th>
+                    <th width="60">状态</th>
+                    <th width="123">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {volist name="list" id="vo"}
+                <tr>
+                    <td class="text-center"><input class="ids" type="checkbox" name="id[]" value="{$vo.id}" /></td>
+                    <td>{$vo.username}</td>
+                    <td>{$vo.rolename}</td>
+                    <td><a class="btn btn-xs btn-info" onclick="layer_show('编辑权限','/admin/Auth/rule_set.html?id={$vo.id}',1000)"><i class="fa fa-pencil fa-fw"></i>编辑权限</a></td>
+                    <td>{$vo.email}</td>
+                    <td>{$vo.last_ip}</td>
+                    <td>{$vo.last_time|date="Y-m-d H:i:s"}</td>
+                    <td>
+                        {switch name="vo.status"}
+                        {case value="1"}正常{/case}
+                        {case value="0"}<span style="color:#999999">禁用</span>{/case}
+                        {case value="-1"}<span style="color:red">删除</span>{/case}
+                        {/switch}
+                    </td>
+                    <td><button class="btn btn-xs btn-primary" onclick="layer_show('编辑管理员','/admin/Auth/admin_edit.html?id={$vo.id}',800,600)"><i class="fa fa-edit" style="vertical-align: -12%;"></i> 编辑</button>
+                        {if condition="$vo.status eq 1"}
+                        <button class="btn btn-xs btn-default do-del" data-db="admin" data-id="{$vo.id}" data-status="-1"><i class="fa fa-trash-o"></i> 删除</button>
+                        {else/}
+                        <button class="btn btn-xs btn-default do-del" data-db="admin" data-id="{$vo.id}" data-status="1"><i class="fa fa fa-recycle"></i> 恢复</button>
+                        {/if}
+                    </td>
+                </tr>
+                {/volist}
+                </tbody>
+            </table>
+            {$list|raw}
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.use(['form', 'layedit', 'laydate'], function(){
+        var form = layui.form
+                ,layer = layui.layer
+                ,layedit = layui.layedit
+                ,laydate = layui.laydate;
+
+//创建一个编辑器
+        var editIndex = layedit.build('LAY_demo_editor');
+
+//自定义验证规则
+        form.verify({
+            title: function(value){
+                if(value.length < 5){
+                    return '标题至少得5个字符啊';
+                }
+            }
+            ,pass: [/(.+){6,12}$/, '密码必须6到12位']
+            ,content: function(value){
+                layedit.sync(editIndex);
+            }
+        });
+
+
+
+        //监听提交
+        form.on('submit(demo1)', function(data){
+            layer.alert(JSON.stringify(data.field), {
+                title: '最终的提交信息'
+            })
+            return false;
+        });
+
+
+    });
+    function admin_del(id,status){
+        ajax("{:url('Admin/adminDel')}",{id:id,status:status},function(data){
+            if(data.status){
+                layer.msg(data.info);
+                setTimeout(function(){
+                    parent.location.reload();
+                },1000)
+            }else{
+                layer.msg(data.info);
+            }
+        })
+    }
+</script>
+{/block}

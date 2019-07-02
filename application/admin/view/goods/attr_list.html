@@ -1,0 +1,38 @@
+{extend name="public:base" /}
+{block name="main"}
+<div id="report-wrapper" class="content clearfix">
+    <div class="main-content">
+        <fieldset class="layui-elem-field layui-field-title">
+            <legend>商品规格列表</legend>
+        </fieldset>
+        <div>
+            <button class="btn btn-mint" onclick="layer_show('添加商品规格','/admin/Goods/attr_add.html',1000)"><i class="fa fa-plus"></i> 新增规格</button>
+        </div>
+        <div class="table-responsive layui-table">
+            <table class="table table-bordered" lay-even>
+                <thead>
+                <tr>
+                    <th>id</th>
+                    <th>规格名称</th>
+                    <th width="150">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {volist name="list" id="vo"}
+                    <tr>
+                        <td>{$vo.id}</td>
+                        <td>{$vo.attr_name}</td>
+                        <td>
+                            <button class="btn btn-xs btn-default do-del" data-db="goodsAttribute" data-id="{$vo.id}" data-status="-1"><i class="fa fa-trash-o"></i> 删除</button>
+                            <a class="btn btn-xs btn-primary" onclick="layer_show('编辑规格','/admin/Goods/attr_edit?id={$vo.id}',800,600)"><i class="fa fa-edit"></i> 编辑</a>
+                        </td>
+                    </tr>
+                {/volist}
+                </tbody>
+            </table>
+            {$list|raw}
+        </div>
+    </div>
+</div>
+
+{/block}

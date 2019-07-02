@@ -1,0 +1,4965 @@
+执行时间：2018-03-23 11:46:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>q5d7g0bmnmzzmgno</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018032310154100</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B2B274749A49FC5A7DA5B57E3ECFB8EB</sign>
+</xml>
+
+执行时间：2018-03-23 13:54:39
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ws8na5qe8kpcqvw8</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018032310250100</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>100</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>DECF3D0327156922E51E2998D73D82C6</sign>
+</xml>
+
+执行时间：2018-03-23 14:05:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2twaqbdrcpj4qdi1</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018032310252525</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>100</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7198A0D9A890E98E232507176611D5C7</sign>
+</xml>
+
+执行时间：2018-03-23 14:05:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>sfej8apqewfamyc4</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018032357505456</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7502352098059D23A4DB9843C5CF4660</sign>
+</xml>
+
+执行时间：2018-03-23 14:11:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7ph1p0shwuwvetkj</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018032397549910</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>12597B78301617AC1DE798ACF5608735</sign>
+</xml>
+
+执行时间：2018-03-23 14:21:53
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>6hzk8p7eopmgmlgn</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018032348100514</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D976B2688417EB8564623265FD314F78</sign>
+</xml>
+
+执行时间：2018-03-23 14:31:12
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>6206tctnqaz9hhwi</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018032310210155</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>100</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F747FA6534D2F5EF4713159E57712366</sign>
+</xml>
+
+执行时间：2018-03-23 14:48:58
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>bd323os5gd3z7tf4</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018032397571001</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>9</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7DDD64FD23C1BE0B252384DFAAE33C04</sign>
+</xml>
+
+执行时间：2018-03-23 15:04:47
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>3sshygnxfzce5is2</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032310250551</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>66500</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7AF8B45A954FCCABC951D5A8DAF31DF3</sign>
+</xml>
+
+执行时间：2018-03-23 15:05:55
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>cp0cytjva6tw4h8r</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032351524952</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>9</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F626F36F3939C01F3081D9376DC1862C</sign>
+</xml>
+
+执行时间：2018-03-23 15:06:19
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>07x2r24pla18qfi7</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032398529949</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>66500</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>0E95439C72F9B5D414FA2200F8B2A130</sign>
+</xml>
+
+执行时间：2018-03-23 15:09:13
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>unaddzgx62glah62</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032357485454</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>DDA4309251609A4F22B32CF12CEB9BA5</sign>
+</xml>
+
+执行时间：2018-03-23 15:09:23
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>oqooaa608ou8s30m</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032351491025</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D1209B8822B40084689CDDB2DCB3EB32</sign>
+</xml>
+
+执行时间：2018-03-23 15:12:14
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>1paogwh3yc6ucwpg</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032310149102</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>66300</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7E211211D27BC90BBF3C7A3DEB5D8EF1</sign>
+</xml>
+
+执行时间：2018-03-23 15:16:45
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ww8oqup8svatyl9f</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032310052555</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>73DBEB69309F0A14BAD9A5861DC00C24</sign>
+</xml>
+
+执行时间：2018-03-23 15:17:17
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>up4hhlc8kxhqr7l1</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032310051999</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>66300</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>2030EF4F5CBCBCC5E87572A0BB0C98AA</sign>
+</xml>
+
+执行时间：2018-03-23 15:17:57
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买商品</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>y14tcelwrcj2l69t</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032352994853</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B3539B52A039492D96808ECD50F9EF02</sign>
+</xml>
+
+执行时间：2018-03-23 15:18:02
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>l8858w36wpysrtzp</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032397974850</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>CFCFF9BAF869ACA53E6E50FFCFD27866</sign>
+</xml>
+
+执行时间：2018-03-23 15:20:00
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>8lf1g9rp32osgkji</nonce_str>
+   <notify_url>api.ainiok.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018032348564910</out_trade_no>
+   <spbill_create_ip>119.123.31.140</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7E00D6F20550E918532D90146862CA44</sign>
+</xml>
+
+执行时间：2018-04-08 15:22:44
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>xjif0qh74zd8xrbi</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040851100491</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D3F4DF7CF69FB19CC32375B3C2789143</sign>
+</xml>
+
+执行时间：2018-04-08 17:31:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ngrf1la8wuq8sco0</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040898555555</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6E2038D3A6738A933C92F0085CBB7AF0</sign>
+</xml>
+
+执行时间：2018-04-09 09:58:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rzd996x3irguxvpn</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040910298525</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5F32EB437B1D7ECA96BB14E3F217243D</sign>
+</xml>
+
+执行时间：2018-04-09 10:20:26
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>uok6d4b8t814s9dn</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040957100495</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9DACF8467C2E462982B4621E7F2331B2</sign>
+</xml>
+
+执行时间：2018-04-09 10:20:30
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>5leejphcia1m4jli</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040910149535</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F9353DFB660DE169639ED6B1EBAE78C2</sign>
+</xml>
+
+执行时间：2018-04-09 11:55:36
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>nfcmq783ga9l27hc</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040955100985</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>E244BA0F132F1087259F784C3CB45D9D</sign>
+</xml>
+
+执行时间：2018-04-09 11:55:41
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hvd6wc0arnhebddy</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040910049519</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>171FA4532A7980554B227A659C9111CF</sign>
+</xml>
+
+执行时间：2018-04-09 11:55:55
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>wh5vvsemad7yyi8i</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040998549756</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>66500</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3FA161F05849B8CB18AA5039C1DD5EC7</sign>
+</xml>
+
+执行时间：2018-04-09 11:55:57
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>mng7fdk64ehqazww</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040910053559</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>66500</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>92B206006B844F19E27C737EDDCDC503</sign>
+</xml>
+
+执行时间：2018-04-09 11:55:58
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>wuz40e7560frtvvi</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040910010056</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>66500</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>68CE60445DF640618FDD29F6B92A20B5</sign>
+</xml>
+
+执行时间：2018-04-09 11:59:23
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>idimvb25zf9tu7e7</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040998535297</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BDF75A3CCAB568F1AF7AE0387C9D57EC</sign>
+</xml>
+
+执行时间：2018-04-09 14:22:10
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>fwsau2npc1bx2g6i</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018040949100995</out_trade_no>
+   <spbill_create_ip>219.134.218.12</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C5756B0E528FFF99962ECA3CDCD6C82C</sign>
+</xml>
+
+执行时间：2018-04-10 10:03:26
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>stotqsu1zum7sljk</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv3f32U4lE7n1ZIyxypnOcTc</openid>
+   <out_trade_no>YT2018041010097489</out_trade_no>
+   <spbill_create_ip>119.123.31.173</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>91CC14A37991C41605D463975685296E</sign>
+</xml>
+
+执行时间：2018-04-10 10:33:28
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>5pk258s7okzl1x9r</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041055994952</out_trade_no>
+   <spbill_create_ip>119.123.31.173</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>84748055C2B10AF0F95DEE75DC2A870C</sign>
+</xml>
+
+执行时间：2018-04-10 10:55:39
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vglqxqbrxvhem4zw</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041097101989</out_trade_no>
+   <spbill_create_ip>112.97.195.228</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>807DFC7FE859BFADF4AD3A33E11F7B9F</sign>
+</xml>
+
+执行时间：2018-04-11 11:01:20
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>txz65qia6wqws8oh</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041148511015</out_trade_no>
+   <spbill_create_ip>119.123.31.173</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>443D7237BA20D8A82FA1B9E623E0AE2C</sign>
+</xml>
+
+执行时间：2018-04-11 11:21:18
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>gle5ojba3msnbnhk</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041110098569</out_trade_no>
+   <spbill_create_ip>119.123.31.173</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>66464BA960EB0C9F4933EE8B23281070</sign>
+</xml>
+
+执行时间：2018-04-11 11:26:48
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>q2dgsdypwtrb29mh</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041156529798</out_trade_no>
+   <spbill_create_ip>119.123.31.173</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>16750EA87D46AB416D562ADF07131222</sign>
+</xml>
+
+执行时间：2018-04-11 16:21:04
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>88t7dj0e12chm1jr</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018041148519810</out_trade_no>
+   <spbill_create_ip>119.123.31.173</spbill_create_ip>
+   <total_fee>66500</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7B65A09BB6146E2E927C63CADA3D91A9</sign>
+</xml>
+
+执行时间：2018-04-11 16:21:21
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2rtzrpmb85a4hzfv</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018041149559954</out_trade_no>
+   <spbill_create_ip>119.123.31.173</spbill_create_ip>
+   <total_fee>66500</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>658EEED5E35A0C29D15B8CE0264EB7C4</sign>
+</xml>
+
+执行时间：2018-04-11 16:21:43
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>oc59588mqhcqo16c</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018041154100575</out_trade_no>
+   <spbill_create_ip>119.123.31.173</spbill_create_ip>
+   <total_fee>66500</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>76E2958FE8245BACE45EB09B7EED5CB9</sign>
+</xml>
+
+执行时间：2018-04-12 10:12:06
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>gknajvxg7uosprg8</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041254541009</out_trade_no>
+   <spbill_create_ip>119.123.2.104</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8BB6583DBFC6FE5CAE7360E2D7241DEA</sign>
+</xml>
+
+执行时间：2018-04-12 15:22:38
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>nqwkf63v3teoc6ih</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041210151561</out_trade_no>
+   <spbill_create_ip>119.123.2.104</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D5CCBAEA11DEC7B8B1F7584106021B09</sign>
+</xml>
+
+执行时间：2018-04-12 16:53:18
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>6ccnolf03d5ddkwf</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018041210153575</out_trade_no>
+   <spbill_create_ip>14.153.27.138</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A12441CF5CEBD46AF78B62606A5E2216</sign>
+</xml>
+
+执行时间：2018-04-16 11:33:12
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>dxoyvo825nrdedl2</nonce_str>
+   <notify_url>47.106.118.117:9907/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041656564855</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3C6B6338FDA8910522D7B8EB22DA3C8B</sign>
+</xml>
+
+执行时间：2018-04-16 17:34:19
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>sj8ss5myqs3jjewr</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzFV5KwbrlBW9kZfxDmIFvM</openid>
+   <out_trade_no>YT2018041698485554</out_trade_no>
+   <spbill_create_ip>113.87.242.97</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BF31F34AC9C6265548442F511BCFAF1A</sign>
+</xml>
+
+执行时间：2018-04-17 14:15:33
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>mr1xxwrfvsqa8krx</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041753525354</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B66D5ABCB6E7897DA7A6AF0AB13C6213</sign>
+</xml>
+
+执行时间：2018-04-17 14:32:42
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>qrgf7ppuoqnjoict</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041757101535</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>CA706A63FD031CE43F128FACDDEFF8F2</sign>
+</xml>
+
+执行时间：2018-04-17 14:39:51
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>9i6fl2j8su97wnq4</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041754989849</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>2B394706DD15319FDEDD83418640D46B</sign>
+</xml>
+
+执行时间：2018-04-17 15:35:12
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>q81hhzfl6wuy3f7v</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041748484999</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>768A0A5EF20BF04EF3013341FA62C4F2</sign>
+</xml>
+
+执行时间：2018-04-17 16:50:43
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>pkn1b0k07bw0ckmy</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041750100555</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>671E442694650C8CFFD52612AFE554E9</sign>
+</xml>
+
+执行时间：2018-04-17 17:50:18
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>381ysd4830fkajkg</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041797525410</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9526A9F91E33CA07E97AAE25D84F3326</sign>
+</xml>
+
+执行时间：2018-04-17 17:54:34
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>03yrj2c1ykm7k596</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041797481015</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>4FF0853A0B8FBD6761CC01B61FCA85B1</sign>
+</xml>
+
+执行时间：2018-04-17 17:54:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2f6munkgat25yzyu</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041710010199</out_trade_no>
+   <spbill_create_ip>219.133.158.22</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C90731A287163C64B84566A7B570BC47</sign>
+</xml>
+
+执行时间：2018-04-18 15:00:17
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>nlstyuujurlrripj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041848101989</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>04FB793D7FCF3EAFA23EBFE9041FA827</sign>
+</xml>
+
+执行时间：2018-04-18 15:01:42
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>h7hiw36fcyz1e619</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041854505056</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5ED40E9D7A37F8CDB8CEF82F988851A5</sign>
+</xml>
+
+执行时间：2018-04-19 10:02:49
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>9dwr0y3ygzaepbpj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041956101995</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>795E09B03F3C90F6F4BD6D8793BD950E</sign>
+</xml>
+
+执行时间：2018-04-19 10:11:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>u9sctgwrfvcfjiyz</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041948100999</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>51B10CE829E20663CC27BF8C94DAFA8D</sign>
+</xml>
+
+执行时间：2018-04-19 10:12:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>syfz8sopupjgdhb1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041951515053</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>99800</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>2E3834539BB05909E5D01D404BA8A305</sign>
+</xml>
+
+执行时间：2018-04-19 10:15:26
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>8ucbmm3vveje967v</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041910097505</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BAB8605147FB0186E472E0B57F69F0CA</sign>
+</xml>
+
+执行时间：2018-04-19 10:16:25
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>11uqhtk6exq259yy</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041957495452</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>79E016BC7E3171CBCCECD4E375A39755</sign>
+</xml>
+
+执行时间：2018-04-19 10:18:45
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>shvqxdtyo7mob7nj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041953494855</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>822C77361C75C26EB60F7FB4220FA152</sign>
+</xml>
+
+执行时间：2018-04-19 10:19:53
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>08h1b66vyebfozig</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041957569910</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D63BAEB15A55E6452577FD4F45B0E3D5</sign>
+</xml>
+
+执行时间：2018-04-19 10:28:21
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>48qr1hgh8ncxnj0o</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018041952101515</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6C899526722AEA778DF13D5DEB77198F</sign>
+</xml>
+
+执行时间：2018-04-19 16:29:30
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>cw938myshn52udts</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041957974956</out_trade_no>
+   <spbill_create_ip>112.97.59.149</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6B68FDF31062B0F9E905A119696BB525</sign>
+</xml>
+
+执行时间：2018-04-19 16:29:37
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>gekj7awgw988zdud</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041949545110</out_trade_no>
+   <spbill_create_ip>112.97.59.149</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>630C5BB16FD213797B1240E447EEFCEB</sign>
+</xml>
+
+执行时间：2018-04-19 16:31:49
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>srxrajma6gdsga99</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041953495710</out_trade_no>
+   <spbill_create_ip>119.123.30.5</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>603D60FCF358EA9C3AAD34B4D3919B3A</sign>
+</xml>
+
+执行时间：2018-04-19 16:38:15
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>mmt4i1afud67gst4</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018041954971021</out_trade_no>
+   <spbill_create_ip>112.97.59.149</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7E7D037A66FBB914AFF74BDA4641D8CF</sign>
+</xml>
+
+执行时间：2018-04-20 13:50:15
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>x54y803a48u4rw38</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018042055554852</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3826AD980BB68F7E2B630334FA972C1F</sign>
+</xml>
+
+执行时间：2018-04-20 14:30:40
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>5qt5zkm7t16biphy</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042010210053</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D441458E4CC624375416BC352081DA33</sign>
+</xml>
+
+执行时间：2018-04-20 14:30:45
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>0lmsxtbvkwakyb8e</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042053515551</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1DBE1D5DF5C7E1E011AEFE91F9364054</sign>
+</xml>
+
+执行时间：2018-04-20 14:33:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>1vc81dsz01g9e3l6</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042049981024</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1798219263A876CFCF12947BFC04E10E</sign>
+</xml>
+
+执行时间：2018-04-20 14:42:05
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>9k19nu5p7l1efghe</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042010050544</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>E65120A911DBA8C4DBFF85B3A1EECAD5</sign>
+</xml>
+
+执行时间：2018-04-20 14:46:41
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7z7vvq2s53nuj7o1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042049524810</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9051E8326E741ACD803F6B8153FA7D27</sign>
+</xml>
+
+执行时间：2018-04-20 14:48:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>6ev3ul017p95g5b3</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042010051102</out_trade_no>
+   <spbill_create_ip>14.20.6.122</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>2AEE0431455B0A5F7149BF95ABF54FDE</sign>
+</xml>
+
+执行时间：2018-04-20 14:49:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>8gvlrv6d0znw330w</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042054101575</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F73BF05A969BAE59251EC3BC82714A24</sign>
+</xml>
+
+执行时间：2018-04-20 14:50:31
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7rs2nracu7ie2noj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042055554997</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>E789EFFB75BF75166EFCBD4BA56CEE69</sign>
+</xml>
+
+执行时间：2018-04-20 14:50:33
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>qmclnwn6fr5ihbpg</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042057484856</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>34061085DB9F5E991A6109DB69E114FE</sign>
+</xml>
+
+执行时间：2018-04-20 14:50:38
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>81pan7pdwzbkp7py</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042010010250</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>06B9758246336DC942B3E6E07EF95260</sign>
+</xml>
+
+执行时间：2018-04-20 14:50:39
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vlh22k3y9och4tix</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042010253505</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9D1AAF4A223B77FDFB836CDF3FC40171</sign>
+</xml>
+
+执行时间：2018-04-20 14:50:41
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>xe2w0embvwmy4opj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042049505599</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B40D8C257790714D9E7763C1D620F8DD</sign>
+</xml>
+
+执行时间：2018-04-20 14:50:45
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>4734deuiw4fpapgk</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042053565250</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1B51AF0EEA9502A02F2C282D616F2549</sign>
+</xml>
+
+执行时间：2018-04-20 14:52:40
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>pgh1h4qsu92rqnhb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042055989751</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FC70B5518703EEF70C7A7202160D7243</sign>
+</xml>
+
+执行时间：2018-04-20 14:58:56
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hjofh2rg1hydbg6o</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042048485598</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8089E4B0EB7DE80D16297B7B999C63E2</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:14
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>mjkgcnqw6043dndi</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042050549810</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>EB0B21276F58BB494799FB2650ABC9E8</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:16
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rtkrgorgcpdm3dxc</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042051101501</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>68B26BC89D1FC3E5DF35FDC9F3D6EE40</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:16
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>c239399t7dpwb7tn</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042052555452</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>845920404338C3151DCB5D67E40ED7CF</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:17
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>xkimj6tx37p922k7</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042053565452</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BD03BB2A3A7F6C000328679CBC2419FB</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:18
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>41gti530ao7xhop8</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042054529810</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B7330E9615E1ED33105902E0F38D4E25</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:19
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rbjp17g64akk8zjr</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042054101555</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>34195F9E82127A10EB31C1F4D5D6096B</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:22
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7vomaff415v20otm</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042097571021</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9E0017AB1EC45338110FD9E8BEA3C5E4</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:23
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>wkyh787bm251e6ck</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042098535055</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1D76517F8E56EFAD0E77E3228D50AB2B</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7crnsatyqalx5kw9</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042098100101</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BAEFBC44C47766C08A14A0041BBA3075</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>y995syd53b2l5c5x</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042099569799</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>063EBB1BF00166DD2E2CFE6564AF6225</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>tnua56lnnpqyhuua</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042010110051</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6535DEB4831B4255450BB89A9168D2EF</sign>
+</xml>
+
+执行时间：2018-04-20 14:59:28
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>krdagh0hyrmpptvr</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042010257551</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FFFDAFC1E83AA6F876AEADBBB87A8A8A</sign>
+</xml>
+
+执行时间：2018-04-20 15:00:00
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vqq7tk8dltak0mim</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042048505352</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>351CA9C25A9409BE511D154381160A97</sign>
+</xml>
+
+执行时间：2018-04-20 15:04:07
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rrl7mn11zfv3v888</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042055481025</out_trade_no>
+   <spbill_create_ip>14.20.6.122</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>DB8C7B8D04E34CD92D368378937F5507</sign>
+</xml>
+
+执行时间：2018-04-20 15:04:22
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>wpn1og13zyppwsfi</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042053102515</out_trade_no>
+   <spbill_create_ip>14.20.6.122</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>47746AD2EB52FCEAC9E4E7534F52FBBB</sign>
+</xml>
+
+执行时间：2018-04-20 15:06:10
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vbpeipe75n3u8wpe</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042050535397</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>33D53304D72D8002D01F9BF821E82B05</sign>
+</xml>
+
+执行时间：2018-04-20 15:06:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>p5krcca6dilzwl0w</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042050101529</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AE8679606973E58A0BA056262D6B570D</sign>
+</xml>
+
+执行时间：2018-04-20 15:06:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>w06b1g7dgkskim7u</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042051539710</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>2966F99073D561B58A5C413C6B4A942F</sign>
+</xml>
+
+执行时间：2018-04-20 15:06:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>enqag2vjq87n6ghw</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042051995099</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>E53B7C97DF48D0D21A8D037C5A09F065</sign>
+</xml>
+
+执行时间：2018-04-20 15:06:12
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7ssd54gs30itik3l</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042052485599</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>64E19811E63C478AAE4E03411BDA7B53</sign>
+</xml>
+
+执行时间：2018-04-20 15:06:12
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>3a2l0et8a83gdv6u</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042052501015</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8020FAA694208B297429F5419791980D</sign>
+</xml>
+
+执行时间：2018-04-20 15:10:17
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7uhk3wq5iuungh9s</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042056100565</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>2454DE35DF7D1D739FE7C250D1AEE7D8</sign>
+</xml>
+
+执行时间：2018-04-20 15:10:19
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rvlcasstirvavzkk</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042097975457</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>13F51F1B498BF353C7ACABE6B1EB203D</sign>
+</xml>
+
+执行时间：2018-04-20 15:14:48
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>sqlaf4pifl81gmdf</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042056551005</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C3CF97F6472F7495DD7BC6C2DF25EDE9</sign>
+</xml>
+
+执行时间：2018-04-20 15:25:51
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>yyg1dgkk85opkzyy</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid></openid>
+   <out_trade_no>YT2018042010251481</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7570F4BD7E364077CD7736F05A6C3CE1</sign>
+</xml>
+
+执行时间：2018-04-20 15:32:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>qoe3h6ofdtx2qfna</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042051485697</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>CDAC619CB2FBB31BD38A42B951E9AC21</sign>
+</xml>
+
+执行时间：2018-04-20 15:48:45
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>fb151y2b48qpzr83</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042099971025</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3A0D8540A2A7E45D3CDAAFCE086FDB35</sign>
+</xml>
+
+执行时间：2018-04-20 17:23:55
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>pbfz0452r1ct8jac</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042097995650</out_trade_no>
+   <spbill_create_ip>14.20.6.122</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>CE5A1C799450783083254733857A8FCD</sign>
+</xml>
+
+执行时间：2018-04-20 17:44:09
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>00qrwqq4ccy7a176</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042057535710</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>EA1F37E8CD9150E332AEA252B86E351D</sign>
+</xml>
+
+执行时间：2018-04-20 18:46:40
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vn2xpn145xfngb9f</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018042048975551</out_trade_no>
+   <spbill_create_ip>119.123.1.62</spbill_create_ip>
+   <total_fee>35900</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C5CC5E7570D4022644B216B2D4095281</sign>
+</xml>
+
+执行时间：2018-04-23 10:06:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rg89w52yrngruvwg</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042350975410</out_trade_no>
+   <spbill_create_ip>14.20.5.61</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>42BBA0BC4104BCCA6410EA5F1DA39E68</sign>
+</xml>
+
+执行时间：2018-04-23 10:19:39
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>tp9ehcyrovo9oodn</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042398511005</out_trade_no>
+   <spbill_create_ip>14.20.5.61</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>26FBCD5F35CE72157E7B405034D0EFA8</sign>
+</xml>
+
+执行时间：2018-04-23 11:29:44
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>8cyauz387qqmsb1l</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv87TfNvNfoO4qP-gB1JyejY</openid>
+   <out_trade_no>YT2018042356555651</out_trade_no>
+   <spbill_create_ip>171.82.225.45</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BE22ABC274054CDCCEE1B81FBDB5B135</sign>
+</xml>
+
+执行时间：2018-04-23 17:05:00
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7q289bfvej695wg5</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042398101525</out_trade_no>
+   <spbill_create_ip>219.134.217.177</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D30ADC9A29F3C70302BF1A4F4A854216</sign>
+</xml>
+
+执行时间：2018-04-23 17:06:06
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>03rgxeg1mr36ehv9</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042310010050</out_trade_no>
+   <spbill_create_ip>219.134.217.177</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6547CA9B747E574F3912DE74FD890D69</sign>
+</xml>
+
+执行时间：2018-04-24 10:24:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>e06m459u3qenlir6</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042450505651</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7AFBF1062210DE00F86E76EDA647A407</sign>
+</xml>
+
+执行时间：2018-04-24 10:49:26
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>zsqkdqysexsmsomj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042454559753</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FF45CB96A6D9B8E34E2C3E183D2931A4</sign>
+</xml>
+
+执行时间：2018-04-24 11:09:04
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>jsi6wpoy2mycm0st</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042410210153</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3E4B462328A6670E4CFC0B35A607893E</sign>
+</xml>
+
+执行时间：2018-04-24 11:19:37
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>kt2qykvh9ukw7kp0</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042456101545</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>389AD276C5DF509554ED66BB221FEA58</sign>
+</xml>
+
+执行时间：2018-04-24 11:20:14
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>o2wdyi0yo8ghmjv4</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042410153555</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>66430E4280A93945A613A546F2A0E257</sign>
+</xml>
+
+执行时间：2018-04-24 11:36:58
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>aj8agztcw6fsn922</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042497524948</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>ACA2A19CEF747741AE7CE55CA3659D8E</sign>
+</xml>
+
+执行时间：2018-04-24 13:40:52
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>yn593ybwzxux8qzi</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042452575410</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>43980</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>46036058088DDCFEC2A4BD8F38ABC2DB</sign>
+</xml>
+
+执行时间：2018-04-25 11:03:01
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>1o1a7ncbqnb0n26n</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042552575352</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6A49F1DD70CF6FDB913A567E3F6D2E9E</sign>
+</xml>
+
+执行时间：2018-04-25 11:06:20
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>m7ww0teqz8vbccww</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042598975110</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>12223D95839E01C88625D5CFA7B0850F</sign>
+</xml>
+
+执行时间：2018-04-25 11:15:05
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>qs0b7hx0mxr2yafi</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042557495554</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>05930D7045B168A5DB11B3051DD4DA7A</sign>
+</xml>
+
+执行时间：2018-04-25 11:15:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>z795dyxq7wiec3qz</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042597509852</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A2CDAF5F806BCB3F83FED8DEF55D7C1E</sign>
+</xml>
+
+执行时间：2018-04-25 14:50:52
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>647cogp9jhrsuxvu</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042598975657</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9DB554FB81AE5DD60923128DAB0898D8</sign>
+</xml>
+
+执行时间：2018-04-25 15:48:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>85dihs152myw17jd</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042598484851</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>22FEBFC6828FA35CEB0213519C0B9228</sign>
+</xml>
+
+执行时间：2018-04-25 15:59:44
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>8rtknmhm8kvht1ks</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042548545656</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>52E7F0FF809AFE97222ACA0F76CDB856</sign>
+</xml>
+
+执行时间：2018-04-25 16:23:16
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>tb177o3r6mxjxtg1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042552534848</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FB8165934A0CAE3DF16E9403348E600D</sign>
+</xml>
+
+执行时间：2018-04-25 16:23:21
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>g5bhqs055o1vcocj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042556975710</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>79652A690DCE4B1881957EBAD35B7BED</sign>
+</xml>
+
+执行时间：2018-04-25 16:23:36
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vlulwuxd9eidq6kp</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042555100575</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>808743A62620C9C156A0B35CFF899028</sign>
+</xml>
+
+执行时间：2018-04-25 16:23:38
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>6bqdk98uutj76gx3</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042557100515</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>535302D75105E6E46205CB083EC6B856</sign>
+</xml>
+
+执行时间：2018-04-25 16:23:43
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rqleeld3odr5x914</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042510248102</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>561C110DDA56FE2C95E805C1EDF8D5B8</sign>
+</xml>
+
+执行时间：2018-04-25 16:25:07
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>zyi4uom7fub0fam1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042550981004</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AF67C2442C7A4ACD2A935A8A77716A74</sign>
+</xml>
+
+执行时间：2018-04-25 16:51:08
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>5bvc3yrdr6z5zb48</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042598975549</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>12</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F11F18FE7ED2919986266EAA5892B5A3</sign>
+</xml>
+
+执行时间：2018-04-25 16:52:14
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>9l1kql64e071d8y1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042510097505</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>4EB615D7D36BFDA3974188FD210473D0</sign>
+</xml>
+
+执行时间：2018-04-25 16:52:17
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>zihq8hdhv7f7y9lo</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042549495055</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>422D67F417FC888A60B037EA2DCC39FD</sign>
+</xml>
+
+执行时间：2018-04-25 16:52:44
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>9l3g2jiazy1mr024</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042598985310</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>592A71B5EC6B2D165CBD45FDF46F4F04</sign>
+</xml>
+
+执行时间：2018-04-25 16:54:25
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>q5x6b34553imnvk3</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042548574897</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>12</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C3790A2609ED39D5518BB6AFD34D89DB</sign>
+</xml>
+
+执行时间：2018-04-25 16:54:53
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hwrhlle2gcl8kzk1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042510056515</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>12</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AADA4C25D65DC7E718F274DFEA9CB462</sign>
+</xml>
+
+执行时间：2018-04-25 16:55:20
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>fb3x7cogezj7eyh6</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042556544849</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>818C747737115DAD84FAED9442AF4F4F</sign>
+</xml>
+
+执行时间：2018-04-25 16:59:30
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7eaar855hc7mz25b</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042550481015</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>4</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>38B931DD9DC278EFD7F332FC5F377EDF</sign>
+</xml>
+
+执行时间：2018-04-25 17:06:44
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>uqp0kdk5o1h3w10e</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042552555599</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>778F617EDB896F1AF3E5FA40CF24AE40</sign>
+</xml>
+
+执行时间：2018-04-25 17:20:45
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>q7gfxkoy7uolx486</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042510056979</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3DEC6894581C821A57B8C15454859B16</sign>
+</xml>
+
+执行时间：2018-04-25 17:34:39
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>l1ma857y4w5tefly</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042510249549</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3713D202FFB55A36D5E071351A6CA8F9</sign>
+</xml>
+
+执行时间：2018-04-25 17:35:47
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>frscbnejwx533x1i</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042550984948</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>740C476B944824CA651D0413BBDF7284</sign>
+</xml>
+
+执行时间：2018-04-25 17:37:00
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>eub2vy6zwtde2k4b</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042598100564</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>3</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A69D91F7BD04C647BD99EDE04F466C42</sign>
+</xml>
+
+执行时间：2018-04-25 17:45:41
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ee71cb79u9p7j939</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042553509710</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C372A907350F6A01A4FA1EF6E9F661C1</sign>
+</xml>
+
+执行时间：2018-04-25 17:46:08
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>nlsu3vuw52tah4n7</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042548481011</out_trade_no>
+   <spbill_create_ip>219.134.216.17</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>0AE4172313C7BE49589CAD77ABD2CB04</sign>
+</xml>
+
+执行时间：2018-04-26 10:33:58
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rq4noqfhahuqi6wf</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042653985755</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>41800A22DE77F65957BDE098CF3AA46B</sign>
+</xml>
+
+执行时间：2018-04-26 10:34:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>kn87m7i3b7mno4vj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042653504999</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B938B4DA9609EDF961CD1D8DE3922015</sign>
+</xml>
+
+执行时间：2018-04-26 10:42:56
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>wq5iymwgwjdgcjbv</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042648561005</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AAF1BAB8CB8AD8DD747EF61F0CC43EB3</sign>
+</xml>
+
+执行时间：2018-04-26 10:45:08
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>sj3u71vl28fz8z6n</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042652569910</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1FD8BB7CDE96B302C0C09743904B6955</sign>
+</xml>
+
+执行时间：2018-04-26 10:47:05
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>j6eyujkqoj2u7of9</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042657539998</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8B9E375F3D073DE1863D7613C91052CD</sign>
+</xml>
+
+执行时间：2018-04-26 10:47:32
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>v1kmdr5wja71c7pj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042651100525</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>4767C3646700E92F8CDEC4CE19F510C7</sign>
+</xml>
+
+执行时间：2018-04-26 10:49:41
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>5t4lv1a0d4axljfo</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042653505610</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>701A7D2879E58A3794DF3B8DAA8078F4</sign>
+</xml>
+
+执行时间：2018-04-26 11:06:49
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>0wum3gg9d4rj8msj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042657545697</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>17</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D9A5F65601748651F8D73EEC7901308C</sign>
+</xml>
+
+执行时间：2018-04-26 11:07:07
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>grwd65vn2khnma18</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042698489749</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>17</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>01BEFB7E11DD1C0C427FB4C845163852</sign>
+</xml>
+
+执行时间：2018-04-26 11:07:23
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>u8fwdgkubipsxym1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042697100100</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3E032BE0EAE29DF734505227DD544CAD</sign>
+</xml>
+
+执行时间：2018-04-26 16:05:37
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>m25c0lygjpsyuhwk</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042649575257</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>74928BFC8000CE874EEACCC234E9DE30</sign>
+</xml>
+
+执行时间：2018-04-26 16:05:56
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>agw4fbfvn3jurbhj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042652504856</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>CFE2DA42A1AD3AEE43DCB52D67A3CD0F</sign>
+</xml>
+
+执行时间：2018-04-26 16:15:37
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>1b4uuhvt1b3pxwtz</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042656101101</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>CE04B003EC5F58E4D8F623C6126E4A54</sign>
+</xml>
+
+执行时间：2018-04-27 11:01:45
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vmoxjimodetgf4p2</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042757555310</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A056AD6656DF12C96C915D1D13B4CC9A</sign>
+</xml>
+
+执行时间：2018-04-27 11:05:53
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ckf7wv9x5h8qfto3</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042749569952</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AFE66A87C273A861012169F2C670C5E4</sign>
+</xml>
+
+执行时间：2018-04-27 13:58:57
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>tqova4wdiqn27k3g</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018042749525197</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>39D6F05E68AA66B7CBFB5F5B0E896BB9</sign>
+</xml>
+
+执行时间：2018-04-27 18:11:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rxssp1rtlshkwlxe</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042797531019</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8307EBB6665EBD5A26F3947C1B518E39</sign>
+</xml>
+
+执行时间：2018-04-27 18:12:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>f70wflgbsjt2ygyi</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042754495654</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>85F49B3310BA910DE584A02E8D2E3EA5</sign>
+</xml>
+
+执行时间：2018-04-27 18:13:39
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ferf0yg9h9v4m57x</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042751485210</out_trade_no>
+   <spbill_create_ip>219.133.159.96</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9141DF8E48563CE7E5774F1DACEE6B68</sign>
+</xml>
+
+执行时间：2018-04-28 10:44:39
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>j6coz02zgx3a5j2x</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042855501004</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F95634749E8BB50D7075504D64297BC9</sign>
+</xml>
+
+执行时间：2018-04-28 10:48:43
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2hnxddd8fpb24jqc</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042898561005</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>505B676205820455C4B603F8C7086A7A</sign>
+</xml>
+
+执行时间：2018-04-28 11:17:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>talykqdir3ft9bl3</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042810256571</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5E9BA563F6360B724F90F05328F3C76A</sign>
+</xml>
+
+执行时间：2018-04-28 11:18:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>c030hzinx5usfu2b</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042851554855</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C65002A74EDCD7832D41791446BF04BB</sign>
+</xml>
+
+执行时间：2018-04-28 11:30:28
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>qqwy5mjk3gf64cyl</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042852535697</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>69C4A5F33E1B9FE13F8A34927A656A7C</sign>
+</xml>
+
+执行时间：2018-04-28 11:31:42
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>65wm9acu6ta6ui5k</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042810156579</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BD427053B6C622B6186F0B5F04197366</sign>
+</xml>
+
+执行时间：2018-04-28 11:34:42
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>b5c0shkaime77tgi</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042849541014</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>37D5E08D7AB9E757DA83F70B3F24CF0F</sign>
+</xml>
+
+执行时间：2018-04-28 11:35:47
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vewqwxaf5mqecbbc</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042851559710</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>010D6F24C77A6E8E5212AFF1E81CE1C7</sign>
+</xml>
+
+执行时间：2018-04-28 11:36:38
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>14k1tlv1e05jlu6i</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042854564848</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F511FCC9A2D4CD9C3E6B03738B328C5E</sign>
+</xml>
+
+执行时间：2018-04-28 14:00:14
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>if72ot5g3txyyt2c</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042810149529</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C3318D75F19E2FE4F0E0729FC729C0DD</sign>
+</xml>
+
+执行时间：2018-04-28 14:11:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ux2qai94cqne6xw8</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042810110051</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F60CFDBB961C5EF25F690A3C1C7C34AA</sign>
+</xml>
+
+执行时间：2018-04-28 14:26:57
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>xyw4cbu98ms4v5iw</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042849504952</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FCAA6100ACA9B71F409F645619EE9550</sign>
+</xml>
+
+执行时间：2018-04-28 14:34:58
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>nxq7wr5aaldmiwoo</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018042850495755</out_trade_no>
+   <spbill_create_ip>223.104.63.192</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AF893DBA56232CF263565994AF46FD51</sign>
+</xml>
+
+执行时间：2018-04-28 15:01:05
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>jvccphbwumse2h0b</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018042848100504</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>51CE4C418472F6078CEFE6878107C437</sign>
+</xml>
+
+执行时间：2018-04-28 15:08:32
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>h1mg4qpj1shl45zi</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018042848505610</out_trade_no>
+   <spbill_create_ip>223.104.63.192</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8986D3BB4EB93D8C83C89B1C98DD8130</sign>
+</xml>
+
+执行时间：2018-04-28 15:12:08
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>yuugg72d8x09yoeo</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042855985553</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5CAD8BB947510769374612E95132A3CF</sign>
+</xml>
+
+执行时间：2018-04-28 15:12:37
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>aeffi3y3pyukw2gb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042852565198</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>5</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5E7ABE279AE0F5C9EAF046972DF82AE4</sign>
+</xml>
+
+执行时间：2018-04-28 15:25:51
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>p9mzwnm5cnouo1vb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042810198515</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>EDB27040901E9FA64C14B8461AAEA8BA</sign>
+</xml>
+
+执行时间：2018-04-28 15:29:17
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>zc8xfpjyctkhu4ba</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042810051519</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BCC3330E3D7C73146895082FF2352978</sign>
+</xml>
+
+执行时间：2018-04-28 15:51:44
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>b1q371fkl3mcnfhy</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018042848509751</out_trade_no>
+   <spbill_create_ip>119.123.31.55</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>ECA02C8223643C20D79E13DCD18BE75E</sign>
+</xml>
+
+执行时间：2018-05-02 09:15:17
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>zbs8ttzfshdursyb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050253525452</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>2C6C8CDFDB1AEEC2F3B17812A28A0224</sign>
+</xml>
+
+执行时间：2018-05-02 09:59:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>8cpkbeuyn3nqvv3r</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050299559710</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>69E051C72EAE096C7544B6D5F718BAD4</sign>
+</xml>
+
+执行时间：2018-05-02 11:02:44
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>l9xzn1ax3oi69cs0</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050251994856</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AAE97613A4815278C98F2AE12722E601</sign>
+</xml>
+
+执行时间：2018-05-02 11:03:39
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>y6nqky873stnnsuj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050297101515</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8BC67CEEB22DFA305F253FD686BBDDE7</sign>
+</xml>
+
+执行时间：2018-05-02 11:10:15
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>f0ggy3e1c7j0m6o1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050255535210</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5076FCC70CBCC6BE24E7C25D4D321DCE</sign>
+</xml>
+
+执行时间：2018-05-02 11:29:06
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>wo3ayzszk05qie4t</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050250531025</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D8D18766BAC2C54AC04096C2C60DFC2D</sign>
+</xml>
+
+执行时间：2018-05-02 11:30:02
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rooiaf8fzkzafd6s</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050256515248</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BE6A35FF7D2AB58C2AFBACC294C3C9AC</sign>
+</xml>
+
+执行时间：2018-05-02 11:32:59
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>w2eniqt78z51oclg</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050298579956</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9BE8EFDFCE58BE8002560CE4724ABA6C</sign>
+</xml>
+
+执行时间：2018-05-02 11:33:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>b5nb0v372oovvqm7</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050251989999</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FC131C4F8446C0B51F3EB52B2C7949CF</sign>
+</xml>
+
+执行时间：2018-05-02 11:43:07
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>t288618rwqhaorfm</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050297995197</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>105592DA2450C2290F8A044605FFC626</sign>
+</xml>
+
+执行时间：2018-05-02 11:46:04
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>h7raal4tfbicywih</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050298569953</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>383B0128B06EA8170F1DA1E6B2284B3A</sign>
+</xml>
+
+执行时间：2018-05-02 11:52:33
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rcaqx98tn9j79d9o</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050248101102</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A0FF7F41D73598A7D5E6DC43D125B179</sign>
+</xml>
+
+执行时间：2018-05-02 11:55:47
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>s0c790mip5cmnnhy</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050250989848</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5D55FDE494A8089861544B714381EA53</sign>
+</xml>
+
+执行时间：2018-05-02 11:59:19
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hbf7cekd5ixe2s4x</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050255575710</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6AC922059DFC5BFCD9CFDAA31658313E</sign>
+</xml>
+
+执行时间：2018-05-02 15:36:18
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>z3ulxblz2t2dioli</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050249575698</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>68D29BC447FD8968C8082EB38CC82C4E</sign>
+</xml>
+
+执行时间：2018-05-03 11:50:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>4nyv3nuzt44yp7bc</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050352989999</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B3D360AEAA394575E8AAD89A8CBB9116</sign>
+</xml>
+
+执行时间：2018-05-03 14:06:17
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>dce5g8bavfnf05qk</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050356975655</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5AA08CA81BD391F3C13359A6D178FF24</sign>
+</xml>
+
+执行时间：2018-05-03 14:12:36
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ntme46hm50acg9be</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050351100974</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BBD0D5A848CD956F4241A87E59E3E489</sign>
+</xml>
+
+执行时间：2018-05-03 14:22:58
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hg4io7hvw4rfi2us</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050350525310</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6AAE572BD472290621D3144BBBC9D071</sign>
+</xml>
+
+执行时间：2018-05-03 14:22:59
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>t4sqwu5084j83l42</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050351999952</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A76907CB2815D870EAAA77674109E907</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:00
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>md2w1ufqkia3r7v0</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050352514952</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F5FF414A00DA919D4A468434E9047FAF</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:00
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2r8ryy0cnt4vnyy6</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050352995056</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8DB82C7688462A0CEFD6E18CEFF4E5B5</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:01
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ru5rs881xkhzgzph</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050353525348</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A0D408BBD975BFD059B9AD509AA14A34</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:01
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>p6kvqha78wx2lphh</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050353555797</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>0D25FAA15E0A23B91EAD0FDBC0D2A3AD</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:01
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>kj0wnm83i0k603sn</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050353985299</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>817EDCC9C9BA47D273278AA9BFB28208</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:02
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ijq1d1akf3guy21x</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050354995010</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3C64B28C739481E400AD217DE6A71EF5</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>oedp6yn3zy5s7bb9</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050355485610</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>97603F920337861E8593038EAB763331</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>4t71pga4vpjwvlei</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050355524810</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5439001EFC2C8762CE730F1F3E411CB6</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:05
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>0enam8jyuszezgpf</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050357504897</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FAB8CD756611C56568F5CD4D4DF84E62</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:07
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>jxd93utjyo120cq3</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050398545697</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F998537E7B1CDBAD52F1739B24ED0B47</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:08
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>1f5vl90oqbvvf5ly</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050399489854</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F235354A39FECDD2D43D8F19B7905C14</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:09
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>36gwlm0gfgr0rvvh</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310055985</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1EB7C448565A2DA372250C3F62883FA6</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:09
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>g2diubi2yo04owdv</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310098525</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3F246517962380589944A9CA268EA795</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:10
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ti6pd4d6pj6gkeea</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310148555</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>254464F1C5115B9C7A12B49CDC28DC48</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:10
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>isqum5nxeve16oer</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310151569</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FC34EB256037981F1902C171142CAF96</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:10
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>xw08rf1a3k2vva94</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310154565</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>DFCCEB6285F680DD1B5F0944D5BCAD04</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:10
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>nj20hfz7vu3m76mn</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310197102</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>6D7847314A76A751A78E4FFB67FBC439</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>dmk4h05wps6eajhz</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310110098</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>2A71885B4A041392D9D0AED933A56BF3</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>jgmea2fppsb3hv1u</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310249495</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>95B40370EEF32E13D3AFC7BE3AC68C54</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>6f9odi0jqpvc1btl</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310252515</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C686609B98A8788DDA063DE444FD395E</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>wk3al0z9sxz8yqvi</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310254991</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5861D83C2C0475EDB2F60DBD78A4A8FA</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:12
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>z7n0zrslp7ln10au</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050348505299</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7F0E8B10E39CB82E9FE0BF07B2A3EA3C</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>j7lm0t1mqmxx4qjw</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050399979954</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>71695781429A1D5899BAFB51A5E85164</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:25
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>v0g5152qmml6tark</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050399100565</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>000EE2114007CC2C96D449598C2016A5</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:25
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>00ol91hr4sw5qo5l</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310052485</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A131624EF2B2DF967D35A0037A15B547</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:25
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hoatg97nds8tda6r</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310049485</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1254001670D843DB14FE4B3DAD0AF744</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:25
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>5lo86zy7tkge93fz</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310055100</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BBC0AAD289CEA07F673828CFA3D3B198</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:25
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>lq9plm79wip1cn8c</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310097509</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7B53321DE32E8B99B4D0BFD8451512FA</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:26
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>53jzgggpeb92uma8</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310010052</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C7A67B681DB3E63F2AB06AA05798E66A</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:26
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>q0l2y02dypua2ijw</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310149541</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7F75763803C204487F57FB62CB6F8A47</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2nr1a5ivwhse1lyo</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310250100</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A930CEA8D59A47B97600EB5D1C3C2678</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>1afnsnrqgsvml9i2</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310253100</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>70F93E874C20F28492B05CBEEF9623B6</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>o4y9ltbtgoazebhy</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310256564</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>230F5E1D6670A3103FBB87A1B29F3673</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>lpu7aec7onlquhf9</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050310298100</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A62C1F4FEBF0980E1FF85C263A79FDE0</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:28
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2gezaagh1vkfn5zk</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050348484850</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>4691DCD0DECCF559528C523039ED69A1</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:28
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hlfi0jrtqlfy12yl</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050348515453</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>C50B4A9438197A5BA8FCD1440B0FC46E</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:28
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>iw9btslrovkea0c3</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050348564857</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F2DD5DC4604B07093FA912D2C106E0AA</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>t4e0c13iv6bo4xhm</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050349495354</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>EE52D50DB5FAF730282FB59E6062F1BA</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>40xgo25zggy0slh1</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050349524810</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>DA9549098E099105E31648512676B0E8</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>gblncc4guih7yt0s</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050349555010</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>932B3369BD9638F39E02F9E6903E0DB9</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>z9hriaba9eic6wek</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050349571019</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BF788D8380A1FED15C1CADBBBAC5F8C8</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>dlahqucmpql69epb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050349100504</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>782BAB1511BBF19D7A1C3CBE8ECE7D61</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:30
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>fdsjwr2yjag2tue5</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050350499810</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B1965B6653D7F8FC69D2D9FC0A5445A3</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:30
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>eya9qmryq5vj70rr</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050350555199</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1BD9D8875E2E3C5DF9CD651CE1842271</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:30
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>wp8boihm9r2ak59g</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050350979953</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>541C4254DA5C22AE5B6759AF090F3BD5</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:31
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>adhe0fdrrj8d4bu4</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050350100569</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>491E23F99C2C2967D753F1F877F6D052</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:31
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vy4ozc0tsm358wt8</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050351495454</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7EF80B5DA2AA59DD8AEF69FB0D8A3B2E</sign>
+</xml>
+
+执行时间：2018-05-03 14:23:31
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>dtrcevbox4ygzhxh</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050351511009</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee></total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>455B3B588ECFD301C42B43952087333F</sign>
+</xml>
+
+执行时间：2018-05-03 17:30:40
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>30vacwxkjrmvvrue</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050310210097</out_trade_no>
+   <spbill_create_ip>113.118.185.86</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>96821CCB1459681503296086A9280B4A</sign>
+</xml>
+
+执行时间：2018-05-04 11:01:41
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ys7dgwo8mexkvpie</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050453564898</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A1BEF7C79288FB532DB279A0943DFEA3</sign>
+</xml>
+
+执行时间：2018-05-04 11:02:42
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>15xkei7crj2ks9gy</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050450495549</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>184B39582A8B296A34736A5CE637EB8E</sign>
+</xml>
+
+执行时间：2018-05-04 11:19:35
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ehdfrccqdfymyel6</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050454999999</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>748BCD7B20C52D961F86FDEFC006A6D7</sign>
+</xml>
+
+执行时间：2018-05-04 11:30:43
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>km3vf14t18l7f4zs</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050450994852</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F20A167B12143BF4FB4D7F30F0417E29</sign>
+</xml>
+
+执行时间：2018-05-04 14:27:21
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>smj8c3k05e1zo917</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018050457514850</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>46E83C7D13806587E6800091CE5A8860</sign>
+</xml>
+
+执行时间：2018-05-04 14:27:30
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>zsbdnyt3r2e9aa9z</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018050449984999</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>ACFAB516A3914641856EFA6AC3D6E789</sign>
+</xml>
+
+执行时间：2018-05-04 15:28:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>aa48xa4qdhl54vr8</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050453985153</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>2</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3DD4D71E398F1C3F0C0358B8E30C9484</sign>
+</xml>
+
+执行时间：2018-05-04 15:36:21
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>3ordelktuiyoj385</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050452101571</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>16DC533BF6F9A96B2F879BAE0A5FFC84</sign>
+</xml>
+
+执行时间：2018-05-04 18:16:47
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>qonloqhkwb372zz9</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050410254101</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>99800</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F12C4408FBF4AC52F64C8FD8B1A2D67F</sign>
+</xml>
+
+执行时间：2018-05-04 18:18:20
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ewrfeli4v5qwkzf2</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050499544953</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>99800</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>388ED414BFEC9A10CE4AB7B77690778D</sign>
+</xml>
+
+执行时间：2018-05-04 18:18:50
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ec1jezp2k3xlnxpe</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050497505197</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D1E78AA5B15CFA9A0B85CD886B177E69</sign>
+</xml>
+
+执行时间：2018-05-04 18:20:10
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>vqgphhe9icodbbq0</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050457515456</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7867E636B1B78485DC0CA7C5976D4240</sign>
+</xml>
+
+执行时间：2018-05-04 18:20:51
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>i3wo8j8srurmr5q5</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050451519948</out_trade_no>
+   <spbill_create_ip>219.133.158.119</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>ED7DF8DC51A8FAC522C95D19A3230D89</sign>
+</xml>
+
+执行时间：2018-05-07 09:28:22
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>v9y63j94xeg2jttx</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050754485255</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>50A4AF7ED9CDDE5DD2598426328417F3</sign>
+</xml>
+
+执行时间：2018-05-07 09:29:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>gxsvien7936vnzbv</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050751100565</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8233DD6C9DF7030B63F02533B083D047</sign>
+</xml>
+
+执行时间：2018-05-07 09:35:20
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>cgqig56056lo6w7y</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050755975149</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>24E6DA3F5CC92AD963762716A45D6347</sign>
+</xml>
+
+执行时间：2018-05-07 10:11:07
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>aq3g2oy6qw5sdm64</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050797995556</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FCA7FE613216ACCAB9EAB942F7851786</sign>
+</xml>
+
+执行时间：2018-05-07 10:11:23
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rpjhcn38pqz0ndgd</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050798545350</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>139800</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1D8F40D57F384E271BA4DF27AC1A071A</sign>
+</xml>
+
+执行时间：2018-05-07 10:11:46
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>7e6xeh08o8mde28u</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050750545057</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>139800</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>BD267299511AFF287A6DC1E22F0BE7CD</sign>
+</xml>
+
+执行时间：2018-05-07 10:12:45
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>938ekpoib2s3kl09</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050710054539</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3BF989581004A58BE44ED8BF12F9050D</sign>
+</xml>
+
+执行时间：2018-05-07 10:13:36
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>1klnhdz3u1aoy979</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050710256575</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7CB2716314143F55C1558C0DAEDC065C</sign>
+</xml>
+
+执行时间：2018-05-07 10:52:04
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2dv1705hvrfjulsf</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050751101995</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>41A4DC6D07C48331B6ECAE84C9E81C64</sign>
+</xml>
+
+执行时间：2018-05-07 10:52:42
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>evcyyns3yjsvj65f</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050757100531</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>35A9C892393D9E7364B4683C3091FAB5</sign>
+</xml>
+
+执行时间：2018-05-07 11:28:22
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>co6g9qjr6vjryux2</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050754525755</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>38076E3FADB13A9CBAFBFCD7F9E608A2</sign>
+</xml>
+
+执行时间：2018-05-07 13:35:24
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>l4pi2cc1y2fh0l8w</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050799495353</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>597EEF3ED7D98DD1155EE667E1D86035</sign>
+</xml>
+
+执行时间：2018-05-07 13:35:28
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>0vo9o399x7m0h4al</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050710210057</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F3AC6CEDEEF09AEC887BC18386F8D685</sign>
+</xml>
+
+执行时间：2018-05-07 13:36:53
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>l18dbe8g9glxomox</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050753555355</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FA01A8237307FD6D5C6DEF29A5D20C62</sign>
+</xml>
+
+执行时间：2018-05-07 13:40:38
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ziogcdludvt4utwt</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050753101575</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>3653B8E54A604D64DB313A1534A115E7</sign>
+</xml>
+
+执行时间：2018-05-07 13:42:49
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>3i58e5slo1sqa75q</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050756989798</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>1B2DAE4AD874A670A2CE990965BADD05</sign>
+</xml>
+
+执行时间：2018-05-07 13:43:52
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>k3cnna7g5bplnddo</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050755100495</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5FB034EF74AA263E7E277BB25B0C249B</sign>
+</xml>
+
+执行时间：2018-05-07 15:01:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>d4tngatn63eltoyp</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050710255515</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>13D19B2CFC3F0B78F3BA80FF39BB17EA</sign>
+</xml>
+
+执行时间：2018-05-07 15:02:40
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>z6cetspjghno7xfg</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050748554810</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>13CCE0817D70F947B0B7837B21B1ABCA</sign>
+</xml>
+
+执行时间：2018-05-07 15:17:20
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>cx5izm171zgga112</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050710257102</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D9E5A026ECE90E9361265C0DB1738DB0</sign>
+</xml>
+
+执行时间：2018-05-07 15:19:33
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ojutt9s1ua3djdwj</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050752979997</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>DEC7626FF03E529014DC7228EAF737E0</sign>
+</xml>
+
+执行时间：2018-05-07 15:20:40
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>abvo4romuktlqovf</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050756541009</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>456FA34047C5EE1BA8096BDC30A16579</sign>
+</xml>
+
+执行时间：2018-05-07 15:28:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>l5dws2a809et7pfb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050797985354</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>0EEADBF9A735EA1D5AE2DD5ED198CB84</sign>
+</xml>
+
+执行时间：2018-05-07 15:39:07
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ymp64eby84b6hixr</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050798561001</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8FD3CFD4B5E5E5FF5389F49FB44E956B</sign>
+</xml>
+
+执行时间：2018-05-07 15:50:51
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ws3sf34r47j4rai5</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018050798521029</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>0BCBFA85C2D457B3ED65993364F315F0</sign>
+</xml>
+
+执行时间：2018-05-07 15:51:36
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>nbyvhuvm5xd3ayb0</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050755102481</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>769D0C6A72FDCE3678CB4AE3C3EC94D8</sign>
+</xml>
+
+执行时间：2018-05-07 16:00:01
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>kitkupcjfxjyrmu4</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018050748985148</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8FC4E68BA5D9694407D3B782778A4310</sign>
+</xml>
+
+执行时间：2018-05-07 16:01:38
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>mwguhm3e2kmamtvv</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050749571009</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>5F6C003A32F615C19105D6A0EFB58F1C</sign>
+</xml>
+
+执行时间：2018-05-07 16:02:35
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>l9z1fsl2ax74d0m8</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050797995610</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>05D571FCA228A9C23D9AF5FDBB0A105F</sign>
+</xml>
+
+执行时间：2018-05-07 16:43:35
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>qwv2jutn8qzqkw0m</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050755535199</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D5FFB8EAF065E1B987267DE601D3B789</sign>
+</xml>
+
+执行时间：2018-05-07 16:48:26
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>3znbo16798incir4</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050757991025</out_trade_no>
+   <spbill_create_ip>219.133.158.229</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>848163579E0568E46A9044A244CF3DB5</sign>
+</xml>
+
+执行时间：2018-05-08 10:26:14
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>kg98a2mu5y0zpj9q</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050853101995</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>D9D2E7614E3DF558E16FE5F0C03AAC9C</sign>
+</xml>
+
+执行时间：2018-05-08 10:38:49
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>josja6torfmu0cee</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050857565054</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>473C1F93D2A14CC71B289B37DF916347</sign>
+</xml>
+
+执行时间：2018-05-08 10:56:11
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>44ya5atelx3ljqgr</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050898485210</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>44334B6509C3C8ABAAFE47A4120FAA96</sign>
+</xml>
+
+执行时间：2018-05-08 10:56:42
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hqsk988bjks1zu1q</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050857100505</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>FBFE391B66E220BB90E46176F73118B0</sign>
+</xml>
+
+执行时间：2018-05-08 10:57:28
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>9j4si715ze2reqkz</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050856495310</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>27EFC7D7C718DE7ECF31DB78A5C08ACB</sign>
+</xml>
+
+执行时间：2018-05-08 11:34:20
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>brurvbshbpzmi3zv</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050899549797</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>73BE0E6E08C97BB5E277A2D6704FFE5C</sign>
+</xml>
+
+执行时间：2018-05-08 11:58:32
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>qht93a543rgb5398</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050856575149</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>499</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>383B74C7B1C6EDEE7FDBFC1830101181</sign>
+</xml>
+
+执行时间：2018-05-08 12:01:42
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>btc2vwvbzwg608if</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050853989848</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>499</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B69AB63FCC9634C251B5876BD5D48CA4</sign>
+</xml>
+
+执行时间：2018-05-08 13:50:57
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>02cz5jb2vk6cz8nz</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050848575452</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>499</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B8F13DA58698929B5DF85728973A290A</sign>
+</xml>
+
+执行时间：2018-05-08 14:05:04
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>2ge62knocjl4zufz</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050848515151</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>499</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>94B514C002D21F8402FDBDBA013FB6FE</sign>
+</xml>
+
+执行时间：2018-05-08 14:26:36
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>rkt3k5r923nfhlzq</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050898979754</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1990</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9DF8B860FD1E6547500A1C4319E40FC7</sign>
+</xml>
+
+执行时间：2018-05-08 14:30:29
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>swe1ea9ma1w5ijg9</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050853559850</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1990</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>141D9D71878FEF4F74E95754CD04A4B4</sign>
+</xml>
+
+执行时间：2018-05-08 14:37:15
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>o2xe9q4ydwjox2og</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050897999810</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>3980</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>296A39512E25EE66E6762A95CE4D519B</sign>
+</xml>
+
+执行时间：2018-05-09 13:53:35
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>ijdzu0zugbr5i8ax</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050910110250</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1990</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>91EA00C288FFD22E026BD9ABAF7B21F3</sign>
+</xml>
+
+执行时间：2018-05-09 13:56:34
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>0kzes2psh7135kvb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050949100559</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>79900</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>358E84FCA555D623460A2B786EAB5DB8</sign>
+</xml>
+
+执行时间：2018-05-09 13:57:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>mlnp80kkpol11y3y</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050949985350</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1990</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>A6DE92E1B27B58C0193410D949F5B944</sign>
+</xml>
+
+执行时间：2018-05-09 14:09:27
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>商品购买</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>tja8bsexvdp89elb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018050955975048</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>159800</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AF27186C6BBB60C225CF926A10FBD961</sign>
+</xml>
+
+执行时间：2018-05-09 14:42:10
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>dvyp70vvj3p8wf3h</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050950509810</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1990</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>AEEA94C0714343E76D463DE8AFD21D95</sign>
+</xml>
+
+执行时间：2018-05-09 14:48:47
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>nikowucvubmmunzb</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-QvzKZ0fQLZdrQuFdYTm6Xtc4</openid>
+   <out_trade_no>YT2018050910156102</out_trade_no>
+   <spbill_create_ip>119.123.28.241</spbill_create_ip>
+   <total_fee>1990</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>8B34404C7AEF2423E802A089B097CFE0</sign>
+</xml>
+
+执行时间：2018-05-10 09:30:58
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>8vddnu3lvnryc10b</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv86F_G6_7_73YkSKhCHXdC4</openid>
+   <out_trade_no>YT2018051049565599</out_trade_no>
+   <spbill_create_ip>119.123.0.237</spbill_create_ip>
+   <total_fee>23400</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>B7A21D780B839A25EC80412A72124442</sign>
+</xml>
+
+执行时间：2018-05-17 09:48:03
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>om14olnzmbhboexq</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv3f32U4lE7n1ZIyxypnOcTc</openid>
+   <out_trade_no>YT2018051751534997</out_trade_no>
+   <spbill_create_ip>219.134.218.89</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>64262706986791FDDFF94F1C6C9B3750</sign>
+</xml>
+
+执行时间：2018-05-17 09:59:54
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>gz3el2d9xqnn3oik</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv3f32U4lE7n1ZIyxypnOcTc</openid>
+   <out_trade_no>YT2018051757100985</out_trade_no>
+   <spbill_create_ip>219.134.218.89</spbill_create_ip>
+   <total_fee>499</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>7C0664E69DBFADF9CC14C0DEB20EF7FD</sign>
+</xml>
+
+执行时间：2018-05-17 16:10:44
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>6ue4qgddez4cy415</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv3f32U4lE7n1ZIyxypnOcTc</openid>
+   <out_trade_no>YT2018051751979851</out_trade_no>
+   <spbill_create_ip>117.136.79.239</spbill_create_ip>
+   <total_fee>1</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>F634911AB2F66401FA2659D2D4D149F8</sign>
+</xml>
+
+执行时间：2018-05-25 13:43:16
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>b9ip6bcuptigfdgl</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018052552559750</out_trade_no>
+   <spbill_create_ip>219.133.158.230</spbill_create_ip>
+   <total_fee>19900</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>9CE092CFFB5B34C1D3D60AB8A83A3936</sign>
+</xml>
+
+执行时间：2018-05-25 15:46:06
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>hb622m9tihudyavl</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018052510056102</out_trade_no>
+   <spbill_create_ip>219.133.158.230</spbill_create_ip>
+   <total_fee>99900</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>E843E386986A06904ED532813A89CA98</sign>
+</xml>
+
+执行时间：2018-05-25 16:24:58
+<xml>
+   <appid>wxb69a110e7e7ab965</appid>
+   <body>购买BTC</body>
+   <mch_id>1486532512</mch_id>
+   <nonce_str>zhkq5v324abvatjs</nonce_str>
+   <notify_url>ytapi.hulupi.com/api/Home/wxNotify</notify_url>
+   <openid>o4_-Qv2C_2UkqXpIjMwiz9ZvapVs</openid>
+   <out_trade_no>YT2018052597515051</out_trade_no>
+   <spbill_create_ip>219.133.158.230</spbill_create_ip>
+   <total_fee>49900</total_fee>
+   <trade_type>JSAPI</trade_type>
+   <sign>719039AAAA516D341C1817AE36466352</sign>
+</xml>
+

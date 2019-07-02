@@ -1,0 +1,66 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        {volist name="attr" id="v" key="index"}
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">{$v.attr_name}</label>
+                                <div class="col-sm-6">
+                                    {volist name="$v.attr_value" id="vo"}
+                                        <!--<input type="checkbox" name="" title="{$vo.attr_name}" lay-skin="primary">-->
+                                        <input type="radio" name="name[{$v.id}]" value="{$vo.good_attr_id}" title="{$vo.attr_name}" {if $info['attr_id'][$index-1] eq $vo.good_attr_id}checked{/if}>
+                                    {/volist}
+                                </div>
+                            </div>
+                        {/volist}
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品价格</label>
+                            <div class="col-sm-6">
+                                <input type="text" name="price" value="{$info.price/100}" lay-verify="required" autocomplete="off" placeholder="请输入商品价格" class="form-control" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')" onpaste="this.value=this.value.replace(/[^\d.]/g,'')">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">库存</label>
+                            <div class="col-sm-6">
+                                <input type="text" name="stock" value="{$info.stock}" lay-verify="required" autocomplete="off" placeholder="请输入商品库存" class="form-control" >
+                            </div>
+                        </div>
+
+                    </div>
+                    <input type="hidden" name="id" value="{$info.id}">
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button class="btn btn-mint" lay-submit="" lay-filter="formDemo">提交</button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    layui.use('form', function(){
+        var form = layui.form;
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+            ajax("/admin/Goods/item_edit",data.field,function(data){
+                if(data.status){
+                    layer.msg(data.info,{icon: 1,time: 1000 }, function(){
+                        parent.location.reload();
+                    });
+                }else{
+                    layer.msg(data.info,{icon:2});
+                }
+            });
+            return false;
+        });
+    });
+</script>
+{/block}

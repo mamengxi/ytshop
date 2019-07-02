@@ -1,0 +1,152 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <form class="layui-form form-horizontal" action="">
+            <div id="Auth-Set-Site" class="row">
+                <ul class="ul-wrapper" checked="checked">
+                    <li class="li0 li">
+                        <input type="checkbox" id="CheckAllSite" class="custom-checkbox"  lay-filter="checkAll" lay-skin="primary" title="全选/全不选">
+                        <ul class="ul">
+                            {foreach name="list" item="voo"}
+                            <li class="li1 li">
+                                <input type="checkbox" value="{$voo.id}" lay-filter="checkvoo" {if condition="in_array($voo['id'],$rule)"}checked{/if} name="rules" lay-skin="primary" title="{$voo.title}">
+                                <a href="javascript:void(0);" class="arrow"></a>
+                                {if condition="$voo.sub neq null"}
+                                <ul class="sub-ul clearfix">
+                                    {foreach name="voo.sub" item="vo"}
+                                    <li class="li2 li">
+                                        <input type="checkbox" class="checkvo" value="{$vo.id}" lay-filter="checkvo" {if condition="in_array($vo['id'],$rule)"}checked{/if} name="rules" lay-skin="primary" title="{$vo.title}">
+                                        {if condition="$vo.sub neq null"}
+                                        <ul class="last-ul clearfix">
+                                            {foreach name="vo.sub" item="v"}
+                                            <li class="tree-leaf li3 li ">
+                                                <em class="ll">&nbsp;</em>
+                                                <input type="checkbox" lay-filter="checkv" value="{$v.id}" {if condition="in_array($v['id'],$rule)"}checked{/if} name="rules" lay-skin="primary" title="{$v.title}">
+                                            </li>
+                                            {/foreach}
+                                        </ul>
+                                        {/if}
+                                    </li>
+                                    {/foreach}
+                                </ul>
+                                {/if}
+                            </li>
+                            {/foreach}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <input type="hidden" name="id" value="{$id}">
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <button class="btn btn-mint" lay-submit="" lay-filter="demo1">提交</button>
+                        <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<style>
+    .ul-wrapper .ul {
+        margin: 0px 0 20px 20px
+    }
+
+
+    .ul-wrapper .ul>li .sub-ul {
+        margin: 10px 0 0 20px;
+        padding: 0px 20px 0;
+        border: 1px solid #ececec;
+        background-color: #fff
+    }
+
+    .ul-wrapper .ul>li .sub-ul li {
+        display: inline-block;
+        width: 150px
+    }
+
+    .ul-wrapper .ul>li .sub-ul li.li2 {
+        margin-bottom: 5px;
+        vertical-align: top
+    }
+
+    .ul-wrapper .ul>li .sub-ul .last-ul {
+        margin-left: 5px;
+        border-left: 1px dotted #a0a2a5
+    }
+
+    .ul-wrapper .ul>li .sub-ul .last-ul li em {
+        position: relative;
+        top: -5px;
+        padding-left: 10px;
+        border-bottom: 1px dotted #a0a2a5
+    }
+
+    .ul-wrapper .ul>li .sub-ul .last-ul li.tree-last:after {
+        content: '.';
+        overflow: hidden;
+        height: 0;
+        display: block;
+        margin-bottom: -5px
+    }
+</style>
+
+
+<script>
+    layui.use(['form','upload'], function(){
+        var form = layui.form,
+            layer = layui.layer;
+
+        form.on('checkbox(checkAll)', function(data){
+            var child = $(data.elem).parents('ul').find('input[type="checkbox"]');
+            child.each(function(index, item){
+                item.checked = data.elem.checked;
+            });
+            form.render('checkbox');
+        });
+        form.on('checkbox(checkvoo)', function(data){
+            var child = $(data.elem).parents('.li1').find('input[type="checkbox"]');
+            child.each(function(index, item){
+                item.checked = data.elem.checked;
+            });
+            form.render('checkbox');
+        });
+        form.on('checkbox(checkvo)', function(data){
+            var child = $(data.elem).parents('.li2').find('input[type="checkbox"]');
+            child.each(function(index, item){
+                item.checked = data.elem.checked;
+            });
+            form.render('checkbox');
+        });
+
+
+        //监听提交
+        form.on('submit(demo1)', function(data){
+            var rules ='';
+            $('input[name="rules"]:checked').each(function(){
+                rules+=$(this).val()+',';
+            });
+            var id=$('input[name="id"]').val();
+            ajax("/admin/Auth/rule_set",{rules:rules,id:id},function(data){
+                if(data.status){
+                    layer.msg(data.info, {
+                        icon: 1,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        layer_close();
+                        parent.location.reload();
+                    });
+                }else{
+                    layer.msg(data.info, {
+                        icon: 2,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    });
+                }
+            })
+            return false;
+        });
+    });
+</script>
+{/block}

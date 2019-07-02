@@ -1,0 +1,26 @@
+{extend name="public:base" /}
+{block name="main"}
+		<div class="detail_body">
+			<div class="navigation">
+				<a href="/">首页</a><span>>></span><a href="/product">产品展示</a><span>>></span><span>详细信息</span>
+			</div>
+			<div class="detail_content">
+				<div class="big_img">
+					<a href="javascript:;"><img src="{$list.img_thumb}"/></a>
+				</div>
+				<div class="product_text">
+					<h1>{$list.title}</h1>
+					<p>{$list.introduce}</p>
+				</div>
+			</div>
+			<div class="layer">
+				<div class="layer_img">
+					<i class="close"></i>
+					<img src="__IMG__/item_img1.png"/>
+				</div>
+			</div>
+			<div class="detail_img">
+				{$list.description|raw}
+			</div>
+		</div>
+{/block}

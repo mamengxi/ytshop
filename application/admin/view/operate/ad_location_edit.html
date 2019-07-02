@@ -1,0 +1,45 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">广告位名称<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="location" lay-verify="required" autocomplete="off" placeholder="请输入广告位名称" value="{$info.location}" class="form-control">
+                            </div>
+                        </div>
+                        <!-- <div class="form-group">
+                            <label class="col-sm-2 control-label">广告类型<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="radio" name="type" value="1" title="图片"  {if condition="$info.type eq 1"}checked=""{/if}>
+                                <input type="radio" name="type" value="2" title="文字" {if condition="$info.type eq 2"}checked=""{/if}>
+                                <input type="radio" name="type" value="3" title="文章" {if condition="$info.type eq 3"}checked=""{/if}>
+                                <input type="radio" name="type" value="4" title="用户" {if condition="$info.type eq 4"}checked=""{/if}>
+                            </div>
+                        </div> -->
+                        <!--<div class="form-group">-->
+                            <!--<label class="col-sm-2 control-label">关闭启用</label>-->
+                            <!--<div class="col-sm-10">-->
+                                <!--<input type="checkbox" {if condition="$info.status eq 1"}checked=""{/if} value="1"  lay-filter="status" name="status" lay-skin="switch" lay-text="ON|OFF" title="开关">-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <input type="hidden" name="id" value="{$info.id}">
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button class="btn btn-mint" lay-submit="" data-url="{:url('Operate/ad_location_edit')}" lay-filter="submit">提交</button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

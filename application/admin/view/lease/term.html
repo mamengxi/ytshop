@@ -1,0 +1,105 @@
+{extend name="public:base" /}
+{block name="main"}
+<div class="row">
+    <div class="col-sm-12">
+        <fieldset class="layui-elem-field layui-field-title">
+            <legend>系统设置</legend>
+        </fieldset>
+        <div class="layui-tab layui-tab-brief">
+            <ul class="layui-tab-title">
+                <li class="layui-this">租赁期设置</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <div class="row panel-body">
+                        <form class="layui-form form-horizontal col-sm-6" action="">
+                            <!--<div class="form-group">-->
+                                <!--<label class="col-sm-3 control-label">固定计费</label>-->
+                                <!--<div class="col-sm-3">-->
+                                    <!--<input type="number" name="expenses" lay-verify="required" autocomplete="off" placeholder="请输入固定计费"  class="form-control" value="{$info.expenses|default=''}">-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">最低天数min</label>
+                                <div class="col-sm-3">
+                                    <input type="number" name="start_time" lay-verify="required" autocomplete="off" placeholder="请输入最低天数min" class="form-control" value="{$info.start_time|default=''}">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">截止天数max</label>
+                                <div class="col-sm-3">
+                                    <input type="number" name="end_time" lay-verify="required" placeholder="请输入截止天数max" autocomplete="off" class="form-control" value="{$info.end_time|default=''}">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">租赁费率</label>
+                                <div class="col-sm-3">
+                                    <input type="text" name="rate" lay-verify="required" placeholder="格式如:0.1" autocomplete="off" class="form-control" value="{$info.rate|default=''}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">计算公式</label>
+                                <div class="col-sm-8 control-label" style="color: #999999">
+                                    N>{$info.end_time},租赁费用=（实际租赁天数-max）*租赁费率（F={$info.expenses}+（N-{$info.end_time}）*{$info.rate}）
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label"></label>
+                                <div class="col-sm-6 control-label" style="color: #999999">
+                                    {$info.start_time}< N ≤{$info.end_time},租赁计费，F={$info.expenses}（租赁费用={$info.expenses}）
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9 col-sm-offset-3">
+                                    <button class="btn btn-mint" lay-submit="" lay-filter="demo1">立即提交</button>
+                                    <button type="reset" class="btn btn-warning">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.use(['form','element','upload'], function(){
+        var form = layui.form
+                ,layer = layui.layer
+                ,element = layui.element;
+
+        //监听提交
+        form.on('submit(demo1)', function(data){
+//            data.field.site_close=data.field.site_close?1:0;
+//            console.log(1111);
+            ajax("/admin/Lease/term",data.field,function(data){
+//                console.log(data);return;
+                if(data.status){
+                    layer.msg(data.info,{icon: 1,time: 1000 }, function(){
+                        parent.location.reload();
+                    });
+                }else{
+                    layer.msg(data.info,{icon:2});
+                }
+            })
+            return false;
+        });
+
+        $('.a').click(function(){
+            layer.open({
+                type: 1 //Page层类型
+                ,area: ['500px', '300px']
+                ,title: '你好，layer。'
+                ,shade: 0.6 //遮罩透明度
+                ,maxmin: true //允许全屏最小化
+                ,anim: 0 //0-6的动画形式，-1不开启
+                ,content: '<div style="padding:50px;">这是一个非常普通的页面层，传入了自定义的html</div>'
+            });
+        })
+    });
+
+</script>
+{/block}

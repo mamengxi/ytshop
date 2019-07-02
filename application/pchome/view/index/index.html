@@ -1,0 +1,74 @@
+{extend name="public:base" /}
+{block name="main"}
+<div class="banner swiper-container" id="banner">
+    <div class="swiper-wrapper">
+        {empty name="ad"}
+            <div class="swiper-slide"><a href=""><img src="__IMG__/banner-1.jpg" /></a></div>
+            <div class="swiper-slide"><a href=""><img src="__IMG__/banner-2.jpg" /></a></div>
+            <div class="swiper-slide"><a href=""><img src="__IMG__/banner-3.jpg" /></a></div>
+            <div class="swiper-slide"><a href=""><img src="__IMG__/banner-4.jpg" /></a></div>
+        {else /}
+            {volist name="ad" id="vo"}
+                <div class="swiper-slide"><a href="{$vo.url}"><img src="{$vo.img_src|default='__IMG__/banner-1.jpg'}" alt="{$vo.ad_name}"/></a></div>
+            {/volist}
+        {/empty}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+<div class="index_body">
+    <div class="welcome">
+        <h2>Welcome to Technology of MSC</h2>
+            <p style="text-align: center;">
+                爱巢科技始于2009年一个高中生的设想，源自于对手机的热爱，MSC团队对手机测评有着专业的知识和严谨的流程 <br>
+                爱巢科技从开始的Symbian系统到现在Android系统和iOS系统都有全面的解析和独到的见解。目睹曾经的机皇诺基亚和安卓鼻祖HTC等公司的崛起和变迁。Come on，与爱巢科技一同了解和探索未来的手机世界吧！
+                <br>
+            </p>
+    </div>
+    <div class="exhibition_box">
+        {volist name="kind" id="vo"}
+            <div class="exhibition">
+                <div>
+                    <a href="javascript:;">
+                        <img src="__IMG__/img{$i}.png"/>
+                    </a>
+                </div>
+                <p>{$vo.title}</p>
+            </div>
+        {/volist}
+    </div>
+    <div class="product_box">
+        <div class="product_content">
+            <div class="product_a">
+                <div class="product_l">
+                    <img src="__IMG__/item_img1.png"/>
+                </div>
+                <div class="product_r">
+                    华为P20 Pro采用的是变色曲面玻璃屏设计，通过变色光学原理，给P20 Pro做出了流光溢彩的效果，完全是按照艺术品的规格来设计。手机拍照方面，P20 Pro可以说是无可匹敌，采用的是800万三倍变焦+2000万黑白色彩+4000万像素色彩的三代莱卡镜头。
+                </div>
+            </div>
+        </div>
+        <div class="product_content">
+            <div class="product_b">
+                <div class="product_l">
+                    <img src="__IMG__/item_img2.png"/>
+                </div>
+                <div class="product_r">
+                    小米mix2s搭载了高通新一代的骁龙845，最高主频2.8GHz，安兔兔跑分27万+。正面是一块5.99英寸的18:9的LCD全面屏，分辨率为2160×1080。小米mix2s后置为1200万+1200万双摄像头，单个摄像面积为1.4μm，支持全像素对焦。小米mix2s无论是拍照还是系统各方面性能都很好，是一款值得入手的手机。
+                </div>
+            </div>
+        </div>
+        <div class="product_content">
+            <div class="product_c">
+                <div class="product_l">
+                    <img src="__IMG__/item_img3.png"/>
+                </div>
+                <div class="product_r">
+                    三星S9/S9+均搭载骁龙845/Exynos 9810处理器，采用Android 8.0操作系统，支持IP68级防尘防水、QC 2.0快充以及支持无线充电技术，并且延续了之前的虹膜识别、Bixby、NFC等配套功能。Galaxy S9采用Quad HD + Super AMOLED 全视曲面屏幕设计，S9+采用6.2英寸Quad HD + Super AMOLED 全视曲面屏幕。
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

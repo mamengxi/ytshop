@@ -1,0 +1,160 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="javascript:;">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">订单编号</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="order_num" value="{$info.order_sn}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">订单总额</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="total_price" value="{$info.total_price}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">申请退款金额</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="apply_money" value="{$info.apply_money}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">申请用户</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="nickname" value="{$info.nickname}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">用户联系方式</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="phone" value="{$info.phone}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">售后类型</label>
+                            <div class="col-sm-10">
+                                {if condition="$info.type eq 1"}
+                                <input type="text" name="type" value="退货退款" class="form-control" readonly="">
+                                {elseif condition="$info.type eq 2"/}
+                                <input type="text" name="type" value="仅退款" class="form-control" readonly="">
+                                {else/}
+                                <input type="text" name="type" value="换货" class="form-control" readonly="">
+                                {/if}
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">申请时间</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="title" value="{$info.apply_time|date='Y-m-d H:i:s'}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">图片凭证</label>
+                            <div class="col-sm-10">
+                                <div class="file-list clearfix"><ul>
+                                    {foreach name="info.images" item="i"}
+                                    <li><img layer-src="{$i|thumb_to_big}" src="{$i|default="__IMG__/no_image.png"}"></li>
+                                    {/foreach}
+                                </ul>
+                                    <input name="image_url" class="file-list-input" type="hidden" value="{$list.image}">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        {volist name="list" id="vo"}
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品名称</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="title" value="{$vo.goods_name}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品价格</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="price" value="{$vo.goods_price}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品属性</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="spec_key_name" value="{$vo.spec_key_name}" lay-verify="required" autocomplete="off" class="form-control" readonly="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品图片</label>
+                            <div class="col-sm-10">
+                                <img class="j-addimg" data-width="200" data-height="200" src="{$vo.goods_img|default='__IMG__/image.png'}" width="200px" alt="" readonly="">
+                            </div>
+                        </div>
+                        {/volist}
+                    </div>
+                    <input type="hidden" name="id" value="{$info.id}">
+                    <div class="row">
+                        <div class="form-group">
+                            {if condition="$info.isagree_goods eq 0"}
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button class="btn btn-mint agree" data-id="{$id}" data-status="1" data-filter="isagree_goods">同意
+                                    {if condition="$info.type eq 1"}
+                                            退货退款
+                                    {elseif condition="$info.type eq 2"/}
+                                            退款
+                                    {else/}
+                                            换货
+                                    {/if}
+                                </button>
+                                <button class="btn btn-danger agree" data-id="{$id}" data-status="-1" data-filter="isagree_goods">拒绝
+                                    {if condition="$info.type eq 1"}
+                                    退货退款
+                                    {elseif condition="$info.type eq 2"/}
+                                    退款
+                                    {else/}
+                                    换货
+                                    {/if}
+                                </button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                            {elseif condition="$info.isagree_money eq 3 && $info.isagree_goods neq -1"/}
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button class="btn btn-mint agree" data-oid="{$info.oid}" data-id="{$id}" data-status="1" data-refund="{$info.apply_money}" data-filter="isagree_money">同意退全额</button>
+                                <button class="btn btn-mint agree" data-oid="{$info.oid}" data-id="{$id}" data-status="2" data-refund="{$info.apply_money}" data-filter="isagree_money">同意退90%</button>
+                                <button class="btn btn-mint agree" data-oid="{$info.oid}" data-id="{$id}" data-status="0" data-refund="{$info.apply_money}" data-filter="isagree_money">拒绝退款</button>
+                            </div>
+                            {else/}
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button type="btn" class="btn btn-warning">已处理</button>
+                                </div>
+                            {/if}
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('.agree').click(function(e){
+        var status = e.currentTarget.dataset.status;
+        var oid = e.currentTarget.dataset.oid;
+        var id = e.currentTarget.dataset.id;
+        var filter = e.currentTarget.dataset.filter;
+        var refund = e.currentTarget.dataset.refund;
+        $.post("{:url('Order/service_edit')}",{oid:oid,id:id,status:status,filter:filter,refund:refund},function(data){
+            console.log(data);
+            if(data.status){
+                layer.msg(data.info, {icon: 1,time: 1000 }, function(){
+                    parent.location.reload();
+                });
+            }else{
+                layer.msg(data.info,{icon:2});
+            }
+        })
+    })
+</script>
+{/block}

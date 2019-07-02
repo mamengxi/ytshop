@@ -1,0 +1,102 @@
+{extend name="public:base" /}
+{block name="main"}
+<script type="text/javascript" charset="utf-8" src="__LIB__/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__LIB__/ueditor/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8" src="__LIB__/ueditor/lang/zh-cn/zh-cn.js"></script>
+<div class="row">
+    <div class="col-sm-12">
+        <fieldset class="layui-elem-field layui-field-title">
+            <legend>租赁合同</legend>
+        </fieldset>
+        <div class="layui-tab layui-tab-brief">
+            <ul class="layui-tab-title">
+                <li class="layui-this">A类合同设置</li>
+                 <li>B类合同设置</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <div class="row panel-body">
+                        <form class="layui-form form-horizontal col-sm-8" action="">
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <textarea id="editor" name="contract" type="text/plain" style="width:100%;height:300px;">{$info.contract}</textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9 col-sm-offset-3">
+                                    <button class="btn btn-mint" lay-submit="" lay-filter="demo1">提交</button>
+                                    <!--<button type="reset" class="btn btn-warning">重置</button>-->
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="layui-tab-item">
+                    <div class="row panel-body">
+                        <form class="layui-form form-horizontal col-sm-8" action="">
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <textarea id="editor2" name="contract_b" type="text/plain" style="width:100%;height:300px;">{$info.contract_b}</textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9 col-sm-offset-3">
+                                    <button class="btn btn-mint" lay-submit="" lay-filter="demo2">提交</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var ue = UE.getEditor('editor');
+    var ue2 = UE.getEditor('editor2');
+</script>
+
+<script>
+    layui.use(['form','element','upload'], function(){
+        var form = layui.form
+                ,layer = layui.layer
+                ,element = layui.element;
+
+        //监听提交
+        form.on('submit(demo1)', function(data){
+//            data.field.site_close=data.field.site_close?1:0;
+//            console.log(1111);
+            ajax("/admin/Lease/contract",data.field,function(data){
+//                console.log(data);return;
+                if(data.status){
+                    layer.msg(data.info,{icon: 1,time: 1000 }, function(){
+                        parent.location.reload();
+                    });
+                }else{
+                    layer.msg(data.info,{icon:2});
+                }
+            })
+            return false;
+        });
+
+        form.on('submit(demo2)', function(data){
+//            data.field.site_close=data.field.site_close?1:0;
+//            console.log(1111);
+            ajax("/admin/Lease/contract_b",data.field,function(data){
+//                console.log(data);return;
+                if(data.status){
+                    layer.msg(data.info,{icon: 1,time: 1000 }, function(){
+                        parent.location.reload();
+                    });
+                }else{
+                    layer.msg(data.info,{icon:2});
+                }
+            })
+            return false;
+        });
+    });
+
+</script>
+
+{/block}

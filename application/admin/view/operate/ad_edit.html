@@ -1,0 +1,82 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">标题<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="ad_name" value="{$info.ad_name}" lay-verify="required" autocomplete="off" placeholder="请输入标题" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">url<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="url" value="{$info.url}" lay-verify="required" autocomplete="off" placeholder="请输入跳转url" class="form-control">
+                            </div>
+                        </div>
+                        <!--<div class="form-group">-->
+                            <!--<label class="col-sm-2 control-label">展示时间<i class="red">*</i></label>-->
+                            <!--<div class="col-sm-10">-->
+                                <!--<div class="input-group mar-btm">-->
+                                    <!--<div class="input-group-addon">开始</div>-->
+                                    <!--<input type="text" name="start_time" value="{$info.start_time|date='Y-m-d'}" id="laydate-start" lay-verify="required" autocomplete="off" placeholder="展示开始时间" class="form-control" >-->
+                                    <!--<div class="input-group-addon">结束</div>-->
+                                    <!--<input type="text" name="end_time" value="{$info.end_time|date='Y-m-d'}" id="laydate-end" lay-verify="required" autocomplete="off" placeholder="展示结束时间" class="form-control" >-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">封面图片<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <button type="button" class="btn btn-primary btn-file j-upload-one"  lay-data="{data:{name: 'img_src', folder: 'shop'}}"></i><i class="fa fa-folder-open-o"></i>&nbsp;上传图片...</button>
+                                <div class="file-list clearfix">
+                                    <ul>
+                                        <li><img src="{$info.img_src}"/>
+                                           </li>
+                                </ul>
+                                    <input name="img_src" class="file-list-input" type="hidden" value="{$info.img_src}">
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="form-group">-->
+                            <!--<label class="col-sm-2 control-label">排序</label>-->
+                            <!--<div class="col-sm-6">-->
+                                <!--<input type="text" name="sort" value="{$info.sort}" lay-verify="required" value="0" autocomplete="off" placeholder="越大越靠前" class="form-control">-->
+                            <!--</div>-->
+                            <!--<span class="col-sm-4 tips">越大越靠前</span>-->
+                        <!--</div>-->
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">是否启用</label>
+                            <div class="col-sm-10">
+                                <input type="checkbox" {if condition="$info.status eq 1"}checked=""{/if} value="1"  lay-filter="status" name="status" lay-skin="switch" lay-text="ON|OFF" title="开关">
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="location_id" value="{$info.location_id}">
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button class="btn btn-mint" lay-submit="" data-url="{:url('Operate/ad_edit',array('id'=>$info.id))}" lay-filter="submit">提交</button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.use(['form','element'], function(){
+        var form = layui.form
+                ,layer = layui.layer
+                ,element = layui.element;
+    });
+
+</script>
+{/block}

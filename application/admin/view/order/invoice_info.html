@@ -1,0 +1,41 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="" method="post" enctype="multipart/form-data">
+                    <div class="row">
+
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">订单编号:</label>
+                            <label class="col-sm-2 control-label">{$info.order_num}</label>
+
+                            <label class="col-sm-2 control-label">发票类型:</label>
+                            <label class="col-sm-2 control-label">
+                                {switch name="$info.is_person"}
+                                {case value="1"} <span style="color:#FF0000;">个人</span>{/case}
+                                {case value="0"} <span style="color:#0099FF;">公司</span>{/case}
+                                {/switch}
+                            </label>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">发票抬头:</label>
+                            <label class="col-sm-2 control-label">{$info.name}</label>
+
+                            <label class="col-sm-2 control-label">发票税号:</label>
+                            <label class="col-sm-2 control-label">{$info.tax_num|default = '无'}</label>
+                        </div>
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{/block}

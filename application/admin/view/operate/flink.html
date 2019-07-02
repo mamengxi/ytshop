@@ -1,0 +1,47 @@
+{extend name="public:base" /}
+{block name="main"}
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-12">
+            <fieldset class="layui-elem-field layui-field-title">
+                <legend>友情链接</legend>
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-sm btn-primary m-t-n-xs" onclick="layer_show('添加链接','/admin/Operate/flink_add.html',800,604)"><strong>添加链接</strong></button>
+                <!--<button class="btn btn-sm btn-primary m-t-n-xs do-del-all" data-db="flink" data-status="1"><strong>启用</strong></button>-->
+                <!--<button class="btn btn-sm btn-primary m-t-n-xs do-del-all" data-db="flink" data-status="0"><strong>禁用</strong></button>-->
+            </div>
+            <table class="table table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th class="text-center" width="50"><input class="check-all" type="checkbox"/></th>
+                    <th>网站名称</th>
+                    <th>链接url</th>
+                    <th>类型</th>
+                    <th width="50">排序</th>
+                    <th width="60">状态</th>
+                    <th width="121">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {foreach name="list" item="vo"}
+                <tr class="gradeX">
+                    <td class="text-center"><input class="ids" type="checkbox" name="id[]" value="{$vo.id}"></td>
+                    <td>{$vo.title}</td>
+                    <td>{$vo.link}</td>
+                    <td>{if condition="$vo.type eq 1"}首页{else/}内页{/if}</td>
+                    <td class="text-center">{$vo.sort}</td>
+                    <td class="layui-form"><input type="checkbox" {if condition="$vo.status eq 1"}checked=""{/if} data-db="flink" data-id="{$vo.id}" name="open" lay-skin="switch" lay-filter="switchStatus" lay-text="ON|OFF"></td>
+                    <td>
+                        <button class="btn btn-xs btn-default do-del" data-db="flink" data-id="{$vo.id}" data-status="-1"><i class="fa fa-trash-o"></i> 删除</button>
+                        <button class="btn btn-xs btn-primary" onclick="layer_show('编辑链接','/admin/Operate/flink_edit.html?id={$vo.id}',800,604)"><i class="fa fa-edit"></i> 编辑</button>
+                    </td>
+                </tr>
+                {/foreach}
+                </tbody>
+            </table>
+            {$list|raw}
+        </div>
+    </div>
+</div>
+{/block}

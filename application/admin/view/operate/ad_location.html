@@ -1,0 +1,42 @@
+{extend name="public:base" /}
+{block name="main"}
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-12">
+            <fieldset class="layui-elem-field layui-field-title">
+                <legend>广告位列表</legend>
+            </fieldset>
+            <div class="form-group">
+                <!--<button class="btn btn-sm btn-primary m-t-n-xs" onclick="layer_show('添加广告位','/admin/Operate/ad_location_add.html',800,365)"><strong>添加广告位</strong></button>-->
+                 <!--<button class="btn btn-sm btn-primary m-t-n-xs do-del-all" data-db="ad_location" data-status="1"><strong>启用</strong></button>-->
+                 <!--<button class="btn btn-sm btn-primary m-t-n-xs do-del-all" data-db="ad_location" data-status="0"><strong>禁用</strong></button>-->
+            </div>
+            <table class="table table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th class="text-center" width="50"><input class="check-all" type="checkbox"/></th>
+                    <th>广告位名称</th>
+                     <!--<th width="60">状态</th>-->
+                    <th width="150">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {foreach name="list" item="vo"}
+                <tr class="gradeX">
+                    <td class="text-center"><input class="ids" type="checkbox" name="id[]" value="{$vo.id}"></td>
+                    <td>{$vo.location}</td>
+                     <!--<td class="layui-form"><input type="checkbox" {if condition="$vo.status eq 1"}checked=""{/if} data-db="ad_location" data-id="{$vo.id}" name="open" lay-skin="switch" lay-filter="switchStatus" lay-text="ON|OFF"></td>-->
+                    <td>
+                        <button class="btn btn-xs btn-mint" onclick="layer_show('广告管理','/admin/Operate/ad.html?location_id={$vo.id}',1000)"><i class="fa fa-sliders"></i> 广告管理</button>
+                        <button class="btn btn-xs btn-primary" onclick="layer_show('编辑广告位','/admin/Operate/ad_location_edit.html?id={$vo.id}',800,365)"><i class="fa fa-edit"></i> 编辑</button>
+                        <!--<button class="btn btn-xs btn-default do-del" data-db="ad_location" data-id="{$vo.id}" data-status="-1"><i class="fa fa-trash-o"></i> 删除</button>-->
+                    </td>
+                </tr>
+                {/foreach}
+                </tbody>
+            </table>
+            {$list|raw}
+        </div>
+    </div>
+</div>
+{/block}

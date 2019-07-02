@@ -1,0 +1,61 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">网站名称<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="title" lay-verify="required" autocomplete="off" placeholder="请输入网站名称" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">url<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="link" lay-verify="required" autocomplete="off" placeholder="请输入链接url" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">类型<i class="red">*</i></label>
+                            <div class="col-sm-10">
+                                <input type="radio" name="type" value="1" title="首页" checked="">
+                                <input type="radio" name="type" value="2" title="内页">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">描述</label>
+                            <div class="col-sm-10">
+                                <textarea name="description" placeholder="请输入内容" class="form-control" rows="6"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">排序</label>
+                            <div class="col-sm-6">
+                                <input type="text" name="sort" lay-verify="required" value="0" autocomplete="off" placeholder="越大越靠前" class="form-control">
+                            </div>
+                            <span class="col-sm-4 tips">越大越靠前</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">是否启用</label>
+                            <div class="col-sm-10">
+                                <input type="checkbox" checked="" value="1"  lay-filter="status" name="status" lay-skin="switch" lay-text="ON|OFF" title="开关">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button class="btn btn-mint" lay-submit="" data-url="{:url('Operate/flink_add')}" lay-filter="submit">提交</button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

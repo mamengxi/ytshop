@@ -1,0 +1,166 @@
+{extend name="public:base" /}
+{block name="main"}
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-12">
+            <fieldset class="layui-elem-field layui-field-title">
+                <legend>反馈列表</legend>
+            </fieldset>
+            <div class="row">
+                <div class="search-box form-group col-sm-12">
+                    <form role="form" class="form-inline layui-form search-form" method="get">
+                        <div class="input-group">
+                            <input type="text" name="phone" placeholder="请输入手机号" class="form-control j-data" value="">
+                        </div>
+                        <button class="btn btn-primary j-search" type="button">搜索</button>
+                        <button class="btn btn-primary j-empey" type="button">清空</button>
+                    </form>
+                </div>
+            </div>
+
+            <table class="layui-hide" id="LAY_table_user" lay-filter="table"></table>
+            <script type="text/html" id="barDemo">
+                {{#  if(d.status == 1){ }}
+                <a class="btn btn-xs btn-info" lay-event="detail"><i class="fa fa-eye"></i> 处理</a>
+                <a class="btn btn-xs btn-primary" lay-event="edit"><i class="fa fa-edit"></i> 忽略</a>
+                {{#  } }}
+                <a class="btn btn-xs btn-default" lay-event="del"><i class="fa fa-trash-o"></i> 删除</a>
+            </script>
+            <script type="text/html" id="barDemo1">
+                {{#  if(d.status == 1){ }}
+                    <p style="color:red;">待处理<p>
+                {{#  } else if(d.status == 2) { }}
+                    <p style="color:green;">已处理<p>
+                {{#  } else { }}
+                    <p style="color:#999999;">已忽略<p>
+                {{#  } }}
+            </script>
+        </div>
+    </div>
+</div>
+<script>
+    layui.use(['layer', 'table',], function(){
+        var layer = layui.layer //弹层
+                ,table = layui.table //表格
+
+        var tableIns = table.render({
+            elem: '#LAY_table_user'
+            ,url: "{:url('index')}"
+            ,cols: [[
+                {field:'nickname', title: '昵称',width:120}
+                ,{field:'phone', title: '联系方式',width:120}
+                ,{field:'time', title: '反馈时间',width:200}
+                ,{field:'detail', title: '反馈详情'}
+                ,{field:'status', title: '反馈状态',width:150, toolbar: '#barDemo1'}
+                ,{fixed: 'right',title: '操作', width:200, align:'center', toolbar: '#barDemo'}
+
+            ]]
+            ,page: true
+            ,method: 'post'
+            ,done: function(res, curr, count){
+            }
+        });
+
+        table.on('tool(table)', function(obj){
+            var data = obj.data
+                    ,layEvent = obj.event;
+            if(layEvent === 'detail'){
+                layer.confirm('确定该操作么？', {
+                    title: '提示',
+                    btnAlign: 'c',
+                    resize: false,
+                    icon: 3,
+                    btn: ['确定', '容朕想想'],
+                    yes: function (index) {
+                        ajax("{:url('feedback/deal')}",{id:data.id,status:2},function(data){
+                            if(data.status){
+                                layer.msg(data.msg, {
+                                    icon: 1,
+                                    time: 1000 //1秒关闭（如果不配置，默认是3秒）
+                                }, function(){
+                                    $('.layui-laypage-btn').click();
+                                });
+                            }else{
+                                layer.msg(data.msg,{icon:2});
+                            }
+                        })
+                    }
+                });
+            } else if(layEvent === 'edit'){
+                layer.confirm('确定该操作么？', {
+                    title: '提示',
+                    btnAlign: 'c',
+                    resize: false,
+                    icon: 3,
+                    btn: ['确定', '容朕想想'],
+                    yes: function (index) {
+                        ajax("{:url('feedback/deal')}",{id:data.id,status:3},function(data){
+                            if(data.status){
+                                layer.msg(data.msg, {
+                                    icon: 1,
+                                    time: 1000 //1秒关闭（如果不配置，默认是3秒）
+                                }, function(){
+                                    $('.layui-laypage-btn').click();
+                                });
+                            }else{
+                                layer.msg(data.msg,{icon:2});
+                            }
+                        })
+                    }
+                });
+            }else if(layEvent === 'del'){
+                layer.confirm('确定该操作么？', {
+                    title: '提示',
+                    btnAlign: 'c',
+                    resize: false,
+                    icon: 3,
+                    btn: ['确定', '容朕想想'],
+                    yes: function (index) {
+                        ajax("{:url('feedback_del')}",{id:data.id},function(data){
+                            if(data.status){
+                                layer.msg(data.msg, {icon: 1,time: 1000 }, function(){
+                                    obj.del();
+                                    layer.close(index);
+                                });
+                            }else{
+                                layer.msg(data.msg,{icon:2});
+                            }
+                        })
+                    }
+                });
+            }
+        });
+        //排序
+        table.on('sort(table)', function(obj){
+            if(obj.type){
+                tableIns.reload({
+                    initSort: obj
+                    ,where: {
+                        order: obj.field+' '+obj.type
+                    }
+                });
+            }
+        });
+
+        //搜索
+        $('.j-search').on('click', function(){
+            var where=JSON.stringify($(".search-form").serializeObject());
+            where=JSON.parse(where);
+            tableIns.reload({
+                where: where
+            });
+        });
+        //清空
+        $('.j-empey').on('click', function(){
+            $('.search-box input').each(function(e){
+                $(this).val('');
+            })
+            tableIns.reload({
+                where: {}
+            });
+        });
+    });
+
+</script>
+
+{/block}

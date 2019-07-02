@@ -1,0 +1,113 @@
+{extend name="public:base" /}
+{block name="main"}
+<style>
+	.tab_series{
+		position: relative;
+	}
+	.msg{
+		position: absolute;
+		left: 0;
+		bottom: 10px;
+		font-size: 20px;
+		color: #ff0000;
+		padding: 10px 0;
+		display: none;
+	}
+	.msg span{
+		color: #000000;
+		font-size: 24px;
+		position: relative;
+		top: 1px;
+	}
+	.msg.on{
+		display: block;
+	}
+</style>
+
+		<div class="banner swiper-container" id="banner">
+		    <div class="swiper-wrapper">
+				{empty name="ad"}
+				<div class="swiper-slide"><a href=""><img src="__IMG__/banner-1.jpg" /></a></div>
+				<div class="swiper-slide"><a href=""><img src="__IMG__/banner-2.jpg" /></a></div>
+				<div class="swiper-slide"><a href=""><img src="__IMG__/banner-3.jpg" /></a></div>
+				<div class="swiper-slide"><a href=""><img src="__IMG__/banner-4.jpg" /></a></div>
+				{else /}
+				{volist name="ad" id="vo"}
+				<div class="swiper-slide"><a href="{$vo.url}"><img src="{$vo.img_src|default='__IMG__/banner-1.jpg'}" alt="{$vo.ad_name}"/></a></div>
+				{/volist}
+				{/empty}
+		    </div>
+		    <div class="swiper-pagination"></div>
+		    <div class="swiper-button-prev"></div>
+    		<div class="swiper-button-next"></div>
+		</div>
+		<div class="display_body">
+			<div class="tab_series">
+				<div class="series news on">
+					三星系列
+				</div>
+				<div class="series xunhuanA">
+					小米系列
+				</div>
+				<div class="series xunhuanB">
+					华为系列
+				</div>
+				<p class="msg msg-A">95新单机<span> + </span>无线充电器<span> + </span>爱巢专属徽章</p>
+				<p class="msg msg-B">95新单机<span> + </span>全新充电器<span> + </span>爱巢专属徽章</p>
+			</div>
+
+			<div class="display_box">
+
+				<ul class="display_list list-news on">
+					{volist name="list1" id="vo1"}
+					<li class="display_item">
+						<a href="{:url('/pchome/Detailed/index')}?id={$vo1.id}">
+							<img src="{$vo1.img_thumb}"/>
+							<div class="product_name">
+								{$vo1.ktitle}-{$vo1.ptitle}
+							</div>
+						</a>
+					</li>
+					{/volist}
+				</ul>
+				<ul class="display_list list-xunhuanA">
+					{volist name="list2" id="vo1"}
+					<li class="display_item">
+						<a href="{:url('/pchome/Detailed/index')}?id={$vo1.id}">
+							<img src="{$vo1.img_thumb}"/>
+							<div class="product_name">
+								{$vo1.ktitle}-{$vo1.ptitle}
+							</div>
+						</a>
+					</li>
+					{/volist}
+				</ul>
+				<ul class="display_list list-xunhuanB">
+					{volist name="list3" id="vo1"}
+					<li class="display_item">
+						<a href="{:url('/pchome/Detailed/index')}?id={$vo1.id}">
+							<img src="{$vo1.img_thumb}"/>
+							<div class="product_name">
+								{$vo1.ktitle}-{$vo1.ptitle}
+							</div>
+						</a>
+					</li>
+					{/volist}
+				</ul>
+			</div>
+			<!--<div class="display_box">-->
+				<!--<ul class="display_list list-news">-->
+					<!--{volist name="list" id="vo1"}-->
+					<!--<li class="display_item">-->
+						<!--<a href="{:url('/pchome/Detailed/index')}?id={$vo1.id}">-->
+							<!--<img src="{$vo1.img_thumb}"/>-->
+							<!--<div class="product_name">-->
+								<!--{$vo1.ktitle}-{$vo1.ptitle}-->
+							<!--</div>-->
+						<!--</a>-->
+					<!--</li>-->
+					<!--{/volist}-->
+				<!--</ul>-->
+			<!--</div>-->
+		</div>
+{/block}

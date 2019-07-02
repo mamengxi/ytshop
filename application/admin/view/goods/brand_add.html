@@ -1,0 +1,41 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">品牌名称</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="title" lay-verify="required" autocomplete="off" maxlength="10" placeholder="请输入品牌名称" class="form-control">
+                            </div>
+                        </div>
+                        <!--<div class="form-group">-->
+                            <!--<label class="col-sm-3 control-label">排序</label>-->
+                            <!--<div class="col-sm-9">-->
+                                <!--<input type="text" name="sort" lay-verify="number" minlength="1" maxlength="2" placeholder="越小越靠前" value="99" autocomplete="off" class="form-control">-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">启用</label>
+                            <div class="col-sm-9">
+                                <input type="checkbox" checked="" value="1"  lay-filter="status" name="status" lay-skin="switch" lay-text="ON|OFF" title="开关">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-sm-9 col-sm-offset-3">
+                                <button class="btn btn-mint" lay-submit="" data-url="/admin/Goods/brand_add" lay-filter="submit">提交</button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

@@ -1,0 +1,59 @@
+{extend name="public:iframe" /}
+{block name="main"}
+<div class="row" id="page-content">
+    <div class="col-sm-12">
+        <div class="layui-tab">
+            <div class="layui-tab-content">
+                <form class="layui-form form-horizontal" action="">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">用户名</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="username" lay-verify="required" autocomplete="off" placeholder="请输入用户名" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">角色</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="rolename" lay-verify="required" autocomplete="off" placeholder="请输入角色名" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">密码</label>
+                            <div class="col-sm-9">
+                                <input type="password" name="password" lay-verify="required" autocomplete="off" placeholder="请输入密码" class="form-control" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">电话</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="tel" placeholder="请输入电话" autocomplete="off" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">邮箱</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="email" placeholder="请输入邮箱" autocomplete="off" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">关闭启用</label>
+                            <div class="col-sm-9">
+                                <input type="checkbox" checked="" value="1"  lay-filter="status" name="status" lay-skin="switch" lay-text="ON|OFF" title="开关">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-sm-9 col-sm-offset-3">
+                                <button class="btn btn-mint" lay-submit="" data-url="/admin/Auth/admin_add" lay-filter="submit">提交</button>
+                                <button type="reset" onclick="layer_close()" class="btn btn-warning">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

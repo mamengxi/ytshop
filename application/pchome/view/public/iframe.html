@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{block name="main"}{/block}
+<footer class="st_footer">
+    <div class="st_footer_box">
+        <ul class="profile">
+            <li>亦特儿童用品有限公司</li>
+            <li>售后服务：1111111111</li>
+            <li>QQ：111111111111&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱：1111@yt.com</li>
+            <li>公司地址：广东省深圳市xxx区xxxxxxx</li>
+        </ul>
+        <div class="QR_code">
+            <div><img src="__IMG__/QR_code_img.png"/></div>
+            <p>扫描关注公众号</p>
+        </div>
+    </div>
+    <div class="copyright">版权所有©Copyright 2014-2018</div>
+</footer>
+<script src="__JS__/jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
+<script src="__JS__/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        // 如果需要滚动条
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+    function productImg(){
+        $.each($(".product_l img"), function(i,item) {
+            var img = new Image();
+            img.src = $(item).prop("src");
+            img.onload = function(){
+                var w = this.width;
+                var h = this.height;
+                if(w>h){
+                    $(item).css("width","100%");
+                    return
+                }else{
+                    $(item).css("height","100%");
+                    return
+                }
+            }
+        });
+    }
+    productImg();
+</script>
+</body>
+</html>

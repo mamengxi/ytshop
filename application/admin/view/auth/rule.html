@@ -1,0 +1,71 @@
+{extend name="public:base" /}
+{block name="main"}
+<div id="report-wrapper" class="content clearfix">
+    <div class="main-content">
+        <fieldset class="layui-elem-field layui-field-title">
+            <legend>节点列表</legend>
+        </fieldset>
+        <div>
+            <button class="btn btn-mint" onclick="layer_show('添加节点','/admin/Auth/rule_add.html',800,600)"><i class="fa fa-plus"></i> 添加节点</button>
+        </div>
+        <div class="table-responsive layui-table">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th class="text-center" width="13"><input class="check-all" type="checkbox"/></th>
+                    <th>节点名称</th>
+                    <th>节点url</th>
+                    <th>父级id</th>
+                    <th width="60">状态</th>
+                    <th>导航</th>
+                    <th>排序</th>
+                    <th width="180">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {volist name="list" id="vo"}
+                <tr>
+                    <td class="text-center"><input class="ids" type="checkbox" name="id[]" value="{$vo.id}" /></td>
+                    <td>{$vo.html}{$vo.title}</td>
+                    <td>{$vo.url}</td>
+                    <td>{$vo.pid}</td>
+                    <td>{switch name="vo.status"}
+                        {case value="1"}正常{/case}
+                        {case value="0"}禁用{/case}
+                        {case value="-1"}删除{/case}
+                        {/switch}
+                    </td>
+                    <td>{switch name="vo.is_nav"}
+                        {case value="1"}是{/case}
+                        {case value="0"}否{/case}
+                        {/switch}
+                    </td>
+                    <td>{$vo.sort}</td>
+                    <td>
+                        <button class="btn btn-xs btn-primary" onclick="layer_show('编辑节点','/admin/Auth/rule_edit.html?id={$vo.id}',800,600)"><i class="fa fa-edit"></i> 编辑</button>
+                        {if condition="$vo.status eq 1"}
+                        <button class="btn btn-xs btn-default do-del" data-db="auth_rule" data-id="{$vo.id}" data-status="0"><i class="fa fa-trash-o"></i> 删除</button>
+                        {else/}
+                        <button class="btn btn-xs btn-default do-del" data-db="auth_rule" data-id="{$vo.id}" data-status="1"><i class="fa fa fa-recycle"></i> 恢复</button>
+                        {/if}
+                        {if condition="$vo.level lt 2"}<button class="btn btn-xs btn-mint" onclick="layer_show('添加节点','/admin/Auth/rule_add.html?id={$vo.id}',800,600)"><i class="fa fa-plus"></i> 添加</button>{/if}
+                    </td>
+                </tr>
+                {/volist}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.use(['form'], function(){
+        var form = layui.form,
+                layer = layui.layer;
+
+
+
+
+    });
+</script>
+{/block}
